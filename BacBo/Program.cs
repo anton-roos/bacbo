@@ -1,6 +1,5 @@
 using BacBo.Services;
 using Microsoft.Extensions.DependencyInjection;
-using System.Windows.Forms;
 
 namespace BacBo;
 
