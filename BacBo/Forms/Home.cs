@@ -3,12 +3,12 @@ using BacBo.Services;
 
 namespace BacBo;
 
-public partial class Form1 : Form
+public partial class Home : Form
 {
     private BacBoResult _bacBoResult;
     private readonly IBacBoService _bacBoService;
 
-    public Form1(IBacBoService bacBoService)
+    public Home(IBacBoService bacBoService)
     {
         InitializeComponent();
         _bacBoResult = new BacBoResult();
@@ -192,17 +192,23 @@ public partial class Form1 : Form
 
     private void CalculateScores()
     {
-        _bacBoResult.PlayerScore = _bacBoResult.PlayerFirstRoll + _bacBoResult.PlayerSecondRoll;
-        _bacBoResult.BankerScore = _bacBoResult.BankerFirstRoll + _bacBoResult.BankerSecondRoll;
+        int playerScore = _bacBoResult.PlayerFirstRoll + _bacBoResult.PlayerSecondRoll;
+        int bankerScore = _bacBoResult.BankerFirstRoll + _bacBoResult.BankerSecondRoll;
 
-        double playerScorePercentage = (double)_bacBoResult.PlayerScore / 12 * 100;
-        double bankerScorePercentage = (double)_bacBoResult.BankerScore / 12 * 100;
+        label7.Text = playerScore.ToString();
+        label12.Text = bankerScore.ToString();
 
-        int playerScore = (int)playerScorePercentage;
-        int bankerScore = (int)bankerScorePercentage;
+        _bacBoResult.PlayerScore = playerScore;
+        _bacBoResult.BankerScore = bankerScore;
 
-        progressBar1.Value = playerScore;
-        progressBar2.Value = bankerScore;
+        double playerScorePercentageCalculated = (double)_bacBoResult.PlayerScore / 12 * 100;
+        double bankerScorePercentageCalculated = (double)_bacBoResult.BankerScore / 12 * 100;
+
+        int playerScorePercentage = (int)playerScorePercentageCalculated;
+        int bankerScorePercentage = (int)bankerScorePercentageCalculated;
+
+        progressBar1.Value = playerScorePercentage;
+        progressBar2.Value = bankerScorePercentage;
     }
 
     private void button25_Click(object sender, EventArgs e)
@@ -218,16 +224,81 @@ public partial class Form1 : Form
 
         _bacBoResult.Source = "Betway Evolution Bac Bo";
 
-        label7.Text = $"Date: {_bacBoResult.DrawDate}\n" +
-            $"PlayerFirstRoll: {_bacBoResult.PlayerFirstRoll}\n" +
-            $"BankerFirstRoll: {_bacBoResult.BankerFirstRoll}\n" +
-            $"PlayerSecondRoll: {_bacBoResult.PlayerSecondRoll}\n" +
-            $"BankerSecondRoll: {_bacBoResult.BankerSecondRoll}\n" +
-            $"PlayerScore: {_bacBoResult.PlayerScore}\n" +
-            $"BankerScore: {_bacBoResult.BankerScore}\n" +
-            $"PlayerWins: {_bacBoResult.PlayerWins}\n" +
-            $"BankerWins: {_bacBoResult.BankerWins}\n" +
-            $"Tie: {_bacBoResult.Tie}\n" +
-            $"Source: {_bacBoResult.Source}";
+        _bacBoService.StoreBacBoResult(_bacBoResult);
+        ClearLabels();
+        _bacBoResult = new BacBoResult
+        {
+            DrawDate = DateTime.Now,
+            PlayerScore = 0,
+            BankerScore = 0,
+        };
+    }
+
+    private void ClearLabels()
+    {
+        label7.Text = "";
+        label8.Text = "";
+        label9.Text = "";
+        label10.Text = "";
+        label11.Text = "";
+        label12.Text = "";
+        progressBar1.Value = 0;
+        progressBar2.Value = 0;
+    }
+
+    private void button26_Click(object sender, EventArgs e)
+    {
+        var itemList = _bacBoService.GetAllBacBoResults();
+
+        foreach (var item in itemList)
+        {
+            var winner = "";
+            if (item.PlayerWins) winner = "P";
+            if (item.BankerWins) winner = "B";
+            if (item.Tie) winner = "T";
+            listBox1.Items.Add($"{winner}, {item.PlayerFirstRoll}, {item.BankerFirstRoll}, " +
+                $"{item.PlayerSecondRoll}, {item.BankerSecondRoll}, {item.PlayerScore}, " +
+                $"{item.BankerScore}");
+        }
+    }
+
+    private void button27_Click(object sender, EventArgs e)
+    {
+        var itemList = _bacBoService.GetAllBacBoResults();
+
+        var PlayerRollOneOneCount = itemList.Where(x => x.PlayerFirstRoll == 1).ToList().Count.ToString();
+        var PlayerRollOneTwoCount = itemList.Where(x => x.PlayerFirstRoll == 2).ToList().Count.ToString();
+        var PlayerRollOneThreeCount = itemList.Where(x => x.PlayerFirstRoll == 3).ToList().Count.ToString();
+        var PlayerRollOneFourCount = itemList.Where(x => x.PlayerFirstRoll == 4).ToList().Count.ToString();
+        var PlayerRollOneFiveCount = itemList.Where(x => x.PlayerFirstRoll == 5).ToList().Count.ToString();
+        var PlayerRollOneSixCount = itemList.Where(x => x.PlayerFirstRoll == 6).ToList().Count.ToString();
+
+        var PlayerRollTwoOneCount = itemList.Where(x => x.PlayerSecondRoll == 1).ToList().Count.ToString();
+        var PlayerRollTwoTwoCount = itemList.Where(x => x.PlayerSecondRoll == 2).ToList().Count.ToString();
+        var PlayerRollTwoThreeCount = itemList.Where(x => x.PlayerSecondRoll == 3).ToList().Count.ToString();
+        var PlayerRollTwoFourCount = itemList.Where(x => x.PlayerSecondRoll == 4).ToList().Count.ToString();
+        var PlayerRollTwoFiveCount = itemList.Where(x => x.PlayerSecondRoll == 5).ToList().Count.ToString();
+        var PlayerRollTwoSixCount = itemList.Where(x => x.PlayerSecondRoll == 6).ToList().Count.ToString();
+
+        var BankerRollOneOneCount = itemList.Where(x => x.BankerFirstRoll == 1).ToList().Count.ToString();
+        var BankerRollOneTwoCount = itemList.Where(x => x.BankerFirstRoll == 2).ToList().Count.ToString();
+        var BankerRollOneThreeCount = itemList.Where(x => x.BankerFirstRoll == 3).ToList().Count.ToString();
+        var BankerRollOneFourCount = itemList.Where(x => x.BankerFirstRoll == 4).ToList().Count.ToString();
+        var BankerRollOneFiveCount = itemList.Where(x => x.BankerFirstRoll == 5).ToList().Count.ToString();
+        var BankerRollOneSixCount = itemList.Where(x => x.BankerFirstRoll == 6).ToList().Count.ToString();
+
+        var BankerRollTwoOneCount = itemList.Where(x => x.BankerSecondRoll == 1).ToList().Count.ToString();
+        var BankerRollTwoTwoCount = itemList.Where(x => x.BankerSecondRoll == 2).ToList().Count.ToString();
+        var BankerRollTwoThreeCount = itemList.Where(x => x.BankerSecondRoll == 3).ToList().Count.ToString();
+        var BankerRollTwoFourCount = itemList.Where(x => x.BankerSecondRoll == 4).ToList().Count.ToString();
+        var BankerRollTwoFiveCount = itemList.Where(x => x.BankerSecondRoll == 5).ToList().Count.ToString();
+        var BankerRollTwoSixCount = itemList.Where(x => x.BankerSecondRoll == 6).ToList().Count.ToString();
+
+        proll1frequency.Text = PlayerRollOneOneCount;
+    }
+
+    private void label13_Click(object sender, EventArgs e)
+    {
+
     }
 }

@@ -21,7 +21,7 @@ internal static class Program
         using (var serviceProvider = services.BuildServiceProvider())
         {
             ApplicationConfiguration.Initialize();
-            var form = serviceProvider.GetRequiredService<Form1>();
+            var form = serviceProvider.GetRequiredService<Home>();
             Application.Run(form);
         }
     }
@@ -35,7 +35,7 @@ internal static class Program
             return factory.CreateDbContext();
         });
         
-        services.AddSingleton<IBacBoService,BacBoService>();
-        services.AddTransient<Form1>();
+        services.AddTransient<IBacBoService,BacBoService>();
+        services.AddSingleton<Home>();
     }
 }
