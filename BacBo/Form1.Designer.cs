@@ -66,12 +66,13 @@
             label11 = new Label();
             button25 = new Button();
             label7 = new Label();
+            label12 = new Label();
             SuspendLayout();
             // 
             // button1
             // 
             button1.BackColor = SystemColors.ActiveCaption;
-            button1.Location = new Point(236, 63);
+            button1.Location = new Point(99, 53);
             button1.Name = "button1";
             button1.Size = new Size(50, 50);
             button1.TabIndex = 0;
@@ -82,7 +83,7 @@
             // button2
             // 
             button2.BackColor = SystemColors.ActiveCaption;
-            button2.Location = new Point(292, 63);
+            button2.Location = new Point(155, 53);
             button2.Name = "button2";
             button2.Size = new Size(50, 50);
             button2.TabIndex = 1;
@@ -93,7 +94,7 @@
             // button3
             // 
             button3.BackColor = SystemColors.ActiveCaption;
-            button3.Location = new Point(348, 63);
+            button3.Location = new Point(211, 53);
             button3.Name = "button3";
             button3.Size = new Size(50, 50);
             button3.TabIndex = 2;
@@ -104,7 +105,7 @@
             // button4
             // 
             button4.BackColor = SystemColors.ActiveCaption;
-            button4.Location = new Point(404, 63);
+            button4.Location = new Point(267, 53);
             button4.Name = "button4";
             button4.Size = new Size(50, 50);
             button4.TabIndex = 3;
@@ -115,7 +116,7 @@
             // button5
             // 
             button5.BackColor = SystemColors.ActiveCaption;
-            button5.Location = new Point(460, 63);
+            button5.Location = new Point(323, 53);
             button5.Name = "button5";
             button5.Size = new Size(50, 50);
             button5.TabIndex = 4;
@@ -126,7 +127,7 @@
             // button6
             // 
             button6.BackColor = SystemColors.ActiveCaption;
-            button6.Location = new Point(516, 63);
+            button6.Location = new Point(379, 53);
             button6.Name = "button6";
             button6.Size = new Size(50, 50);
             button6.TabIndex = 5;
@@ -137,7 +138,7 @@
             // button7
             // 
             button7.BackColor = Color.IndianRed;
-            button7.Location = new Point(236, 119);
+            button7.Location = new Point(99, 109);
             button7.Name = "button7";
             button7.Size = new Size(50, 50);
             button7.TabIndex = 6;
@@ -148,7 +149,7 @@
             // button8
             // 
             button8.BackColor = Color.IndianRed;
-            button8.Location = new Point(292, 119);
+            button8.Location = new Point(155, 109);
             button8.Name = "button8";
             button8.Size = new Size(50, 50);
             button8.TabIndex = 7;
@@ -159,7 +160,7 @@
             // button9
             // 
             button9.BackColor = Color.IndianRed;
-            button9.Location = new Point(348, 119);
+            button9.Location = new Point(211, 109);
             button9.Name = "button9";
             button9.Size = new Size(50, 50);
             button9.TabIndex = 8;
@@ -170,7 +171,7 @@
             // button10
             // 
             button10.BackColor = Color.IndianRed;
-            button10.Location = new Point(404, 119);
+            button10.Location = new Point(267, 109);
             button10.Name = "button10";
             button10.Size = new Size(50, 50);
             button10.TabIndex = 9;
@@ -181,7 +182,7 @@
             // button11
             // 
             button11.BackColor = Color.IndianRed;
-            button11.Location = new Point(460, 119);
+            button11.Location = new Point(323, 109);
             button11.Name = "button11";
             button11.Size = new Size(50, 50);
             button11.TabIndex = 10;
@@ -192,7 +193,7 @@
             // button12
             // 
             button12.BackColor = Color.IndianRed;
-            button12.Location = new Point(516, 119);
+            button12.Location = new Point(379, 109);
             button12.Name = "button12";
             button12.Size = new Size(50, 50);
             button12.TabIndex = 11;
@@ -203,7 +204,7 @@
             // button13
             // 
             button13.BackColor = SystemColors.ActiveCaption;
-            button13.Location = new Point(236, 175);
+            button13.Location = new Point(99, 165);
             button13.Name = "button13";
             button13.Size = new Size(50, 50);
             button13.TabIndex = 12;
@@ -214,7 +215,7 @@
             // button14
             // 
             button14.BackColor = SystemColors.ActiveCaption;
-            button14.Location = new Point(292, 175);
+            button14.Location = new Point(155, 165);
             button14.Name = "button14";
             button14.Size = new Size(50, 50);
             button14.TabIndex = 13;
@@ -225,7 +226,7 @@
             // button15
             // 
             button15.BackColor = SystemColors.ActiveCaption;
-            button15.Location = new Point(348, 175);
+            button15.Location = new Point(211, 165);
             button15.Name = "button15";
             button15.Size = new Size(50, 50);
             button15.TabIndex = 14;
@@ -236,7 +237,7 @@
             // button16
             // 
             button16.BackColor = SystemColors.ActiveCaption;
-            button16.Location = new Point(404, 175);
+            button16.Location = new Point(267, 165);
             button16.Name = "button16";
             button16.Size = new Size(50, 50);
             button16.TabIndex = 15;
@@ -247,7 +248,7 @@
             // button17
             // 
             button17.BackColor = SystemColors.ActiveCaption;
-            button17.Location = new Point(460, 175);
+            button17.Location = new Point(323, 165);
             button17.Name = "button17";
             button17.Size = new Size(50, 50);
             button17.TabIndex = 16;
@@ -258,7 +259,7 @@
             // button18
             // 
             button18.BackColor = SystemColors.ActiveCaption;
-            button18.Location = new Point(516, 175);
+            button18.Location = new Point(379, 165);
             button18.Name = "button18";
             button18.Size = new Size(50, 50);
             button18.TabIndex = 17;
@@ -269,7 +270,7 @@
             // button19
             // 
             button19.BackColor = Color.IndianRed;
-            button19.Location = new Point(236, 231);
+            button19.Location = new Point(99, 221);
             button19.Name = "button19";
             button19.Size = new Size(50, 50);
             button19.TabIndex = 18;
@@ -280,7 +281,7 @@
             // button20
             // 
             button20.BackColor = Color.IndianRed;
-            button20.Location = new Point(292, 231);
+            button20.Location = new Point(155, 221);
             button20.Name = "button20";
             button20.Size = new Size(50, 50);
             button20.TabIndex = 19;
@@ -291,7 +292,7 @@
             // button21
             // 
             button21.BackColor = Color.IndianRed;
-            button21.Location = new Point(348, 231);
+            button21.Location = new Point(211, 221);
             button21.Name = "button21";
             button21.Size = new Size(50, 50);
             button21.TabIndex = 20;
@@ -302,7 +303,7 @@
             // button22
             // 
             button22.BackColor = Color.IndianRed;
-            button22.Location = new Point(404, 231);
+            button22.Location = new Point(267, 221);
             button22.Name = "button22";
             button22.Size = new Size(50, 50);
             button22.TabIndex = 21;
@@ -313,7 +314,7 @@
             // button23
             // 
             button23.BackColor = Color.IndianRed;
-            button23.Location = new Point(460, 231);
+            button23.Location = new Point(323, 221);
             button23.Name = "button23";
             button23.Size = new Size(50, 50);
             button23.TabIndex = 22;
@@ -324,7 +325,7 @@
             // button24
             // 
             button24.BackColor = Color.IndianRed;
-            button24.Location = new Point(516, 231);
+            button24.Location = new Point(379, 221);
             button24.Name = "button24";
             button24.Size = new Size(50, 50);
             button24.TabIndex = 23;
@@ -335,7 +336,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(151, 81);
+            label1.Location = new Point(14, 71);
             label1.Name = "label1";
             label1.Size = new Size(71, 15);
             label1.TabIndex = 24;
@@ -344,7 +345,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(151, 249);
+            label2.Location = new Point(14, 239);
             label2.Name = "label2";
             label2.Size = new Size(75, 15);
             label2.TabIndex = 25;
@@ -353,7 +354,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(151, 137);
+            label3.Location = new Point(14, 127);
             label3.Name = "label3";
             label3.Size = new Size(75, 15);
             label3.TabIndex = 26;
@@ -362,7 +363,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(151, 193);
+            label4.Location = new Point(14, 183);
             label4.Name = "label4";
             label4.Size = new Size(71, 15);
             label4.TabIndex = 27;
@@ -370,14 +371,14 @@
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(236, 287);
+            progressBar1.Location = new Point(99, 277);
             progressBar1.Name = "progressBar1";
             progressBar1.Size = new Size(330, 23);
             progressBar1.TabIndex = 28;
             // 
             // progressBar2
             // 
-            progressBar2.Location = new Point(236, 316);
+            progressBar2.Location = new Point(99, 306);
             progressBar2.Name = "progressBar2";
             progressBar2.Size = new Size(330, 23);
             progressBar2.TabIndex = 29;
@@ -385,7 +386,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(155, 316);
+            label5.Location = new Point(18, 306);
             label5.Name = "label5";
             label5.Size = new Size(75, 15);
             label5.TabIndex = 30;
@@ -394,7 +395,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(155, 287);
+            label6.Location = new Point(18, 277);
             label6.Name = "label6";
             label6.Size = new Size(71, 15);
             label6.TabIndex = 31;
@@ -403,7 +404,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(572, 81);
+            label8.Location = new Point(435, 71);
             label8.Name = "label8";
             label8.Size = new Size(36, 15);
             label8.TabIndex = 33;
@@ -412,7 +413,7 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(572, 137);
+            label9.Location = new Point(435, 127);
             label9.Name = "label9";
             label9.Size = new Size(36, 15);
             label9.TabIndex = 34;
@@ -421,7 +422,7 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(572, 193);
+            label10.Location = new Point(435, 183);
             label10.Name = "label10";
             label10.Size = new Size(36, 15);
             label10.TabIndex = 35;
@@ -430,7 +431,7 @@
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(572, 249);
+            label11.Location = new Point(435, 239);
             label11.Name = "label11";
             label11.Size = new Size(36, 15);
             label11.TabIndex = 36;
@@ -438,7 +439,7 @@
             // 
             // button25
             // 
-            button25.Location = new Point(236, 345);
+            button25.Location = new Point(99, 335);
             button25.Name = "button25";
             button25.Size = new Size(75, 23);
             button25.TabIndex = 37;
@@ -449,17 +450,27 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(236, 371);
+            label7.Location = new Point(99, 361);
             label7.Name = "label7";
-            label7.Size = new Size(44, 15);
+            label7.Size = new Size(0, 15);
             label7.TabIndex = 38;
-            label7.Text = "Results";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label12.Location = new Point(12, 9);
+            label12.Name = "label12";
+            label12.Size = new Size(162, 30);
+            label12.TabIndex = 39;
+            label12.Text = "Bac Bo Capture";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 561);
+            ClientSize = new Size(509, 557);
+            Controls.Add(label12);
             Controls.Add(label7);
             Controls.Add(button25);
             Controls.Add(label11);
@@ -545,5 +556,6 @@
         private Label label11;
         private Button button25;
         private Label label7;
+        private Label label12;
     }
 }

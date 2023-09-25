@@ -218,7 +218,7 @@ public partial class Form1 : Form
             $"PlayerSecondRoll: {_bacBoResult.PlayerSecondRoll}\n" +
             $"BankerSecondRoll: {_bacBoResult.BankerSecondRoll}\n" +
             $"PlayerScore: {_bacBoResult.PlayerScore}\n" +
-            $"BankerScore: {_bacBoResult.BankerScore}\n"+
+            $"BankerScore: {_bacBoResult.BankerScore}\n" +
             $"PlayerWins: {_bacBoResult.PlayerWins}\n" +
             $"BankerWins: {_bacBoResult.BankerWins}\n" +
             $"Tie: {_bacBoResult.Tie}\n" +
