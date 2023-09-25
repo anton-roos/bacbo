@@ -1,4 +1,4 @@
-﻿namespace BacBo;
+﻿namespace BacBo.Models;
 
 public class BacBoResult
 {

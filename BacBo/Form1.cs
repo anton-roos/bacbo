@@ -1,12 +1,18 @@
+using BacBo.Models;
+using BacBo.Services;
+
 namespace BacBo;
 
 public partial class Form1 : Form
 {
     private BacBoResult _bacBoResult;
-    public Form1()
+    private readonly IBacBoService _bacBoService;
+
+    public Form1(IBacBoService bacBoService)
     {
         InitializeComponent();
         _bacBoResult = new BacBoResult();
+        _bacBoService = bacBoService;
     }
 
     private void Form1_Load(object sender, EventArgs e)
@@ -207,7 +213,7 @@ public partial class Form1 : Form
         if (_bacBoResult.PlayerScore > _bacBoResult.BankerScore)
             _bacBoResult.PlayerWins = true;
 
-        if (_bacBoResult.PlayerScore < _bacBoResult.BankerScore)
+        if (_bacBoResult.BankerScore > _bacBoResult.PlayerScore)
             _bacBoResult.BankerWins = true;
 
         _bacBoResult.Source = "Betway Evolution Bac Bo";

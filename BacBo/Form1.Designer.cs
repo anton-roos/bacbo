@@ -371,6 +371,7 @@
             // 
             // progressBar1
             // 
+            progressBar1.BackColor = SystemColors.Control;
             progressBar1.Location = new Point(99, 277);
             progressBar1.Name = "progressBar1";
             progressBar1.Size = new Size(330, 23);
