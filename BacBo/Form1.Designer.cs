@@ -56,6 +56,16 @@
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
+            progressBar1 = new ProgressBar();
+            progressBar2 = new ProgressBar();
+            label5 = new Label();
+            label6 = new Label();
+            label8 = new Label();
+            label9 = new Label();
+            label10 = new Label();
+            label11 = new Label();
+            button25 = new Button();
+            label7 = new Label();
             SuspendLayout();
             // 
             // button1
@@ -67,6 +77,7 @@
             button1.TabIndex = 0;
             button1.Text = "1";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -88,6 +99,7 @@
             button3.TabIndex = 2;
             button3.Text = "3";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -98,6 +110,7 @@
             button4.TabIndex = 3;
             button4.Text = "4";
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
@@ -108,6 +121,7 @@
             button5.TabIndex = 4;
             button5.Text = "5";
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
@@ -118,6 +132,7 @@
             button6.TabIndex = 5;
             button6.Text = "6";
             button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
             // 
             // button7
             // 
@@ -128,6 +143,7 @@
             button7.TabIndex = 6;
             button7.Text = "1";
             button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
             // 
             // button8
             // 
@@ -138,6 +154,7 @@
             button8.TabIndex = 7;
             button8.Text = "2";
             button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
             // 
             // button9
             // 
@@ -148,6 +165,7 @@
             button9.TabIndex = 8;
             button9.Text = "3";
             button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
             // 
             // button10
             // 
@@ -158,6 +176,7 @@
             button10.TabIndex = 9;
             button10.Text = "4";
             button10.UseVisualStyleBackColor = false;
+            button10.Click += button10_Click;
             // 
             // button11
             // 
@@ -168,6 +187,7 @@
             button11.TabIndex = 10;
             button11.Text = "5";
             button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click;
             // 
             // button12
             // 
@@ -178,6 +198,7 @@
             button12.TabIndex = 11;
             button12.Text = "6";
             button12.UseVisualStyleBackColor = false;
+            button12.Click += button12_Click;
             // 
             // button13
             // 
@@ -188,6 +209,7 @@
             button13.TabIndex = 12;
             button13.Text = "1";
             button13.UseVisualStyleBackColor = false;
+            button13.Click += button13_Click;
             // 
             // button14
             // 
@@ -198,6 +220,7 @@
             button14.TabIndex = 13;
             button14.Text = "2";
             button14.UseVisualStyleBackColor = false;
+            button14.Click += button14_Click;
             // 
             // button15
             // 
@@ -208,6 +231,7 @@
             button15.TabIndex = 14;
             button15.Text = "3";
             button15.UseVisualStyleBackColor = false;
+            button15.Click += button15_Click;
             // 
             // button16
             // 
@@ -218,6 +242,7 @@
             button16.TabIndex = 15;
             button16.Text = "4";
             button16.UseVisualStyleBackColor = false;
+            button16.Click += button16_Click;
             // 
             // button17
             // 
@@ -228,6 +253,7 @@
             button17.TabIndex = 16;
             button17.Text = "5";
             button17.UseVisualStyleBackColor = false;
+            button17.Click += button17_Click;
             // 
             // button18
             // 
@@ -238,6 +264,7 @@
             button18.TabIndex = 17;
             button18.Text = "6";
             button18.UseVisualStyleBackColor = false;
+            button18.Click += button18_Click;
             // 
             // button19
             // 
@@ -248,6 +275,7 @@
             button19.TabIndex = 18;
             button19.Text = "1";
             button19.UseVisualStyleBackColor = false;
+            button19.Click += button19_Click;
             // 
             // button20
             // 
@@ -258,6 +286,7 @@
             button20.TabIndex = 19;
             button20.Text = "2";
             button20.UseVisualStyleBackColor = false;
+            button20.Click += button20_Click;
             // 
             // button21
             // 
@@ -268,6 +297,7 @@
             button21.TabIndex = 20;
             button21.Text = "3";
             button21.UseVisualStyleBackColor = false;
+            button21.Click += button21_Click;
             // 
             // button22
             // 
@@ -278,6 +308,7 @@
             button22.TabIndex = 21;
             button22.Text = "4";
             button22.UseVisualStyleBackColor = false;
+            button22.Click += button22_Click;
             // 
             // button23
             // 
@@ -288,6 +319,7 @@
             button23.TabIndex = 22;
             button23.Text = "5";
             button23.UseVisualStyleBackColor = false;
+            button23.Click += button23_Click;
             // 
             // button24
             // 
@@ -298,6 +330,7 @@
             button24.TabIndex = 23;
             button24.Text = "6";
             button24.UseVisualStyleBackColor = false;
+            button24.Click += button24_Click;
             // 
             // label1
             // 
@@ -307,7 +340,6 @@
             label1.Size = new Size(71, 15);
             label1.TabIndex = 24;
             label1.Text = "Player Roll 1";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -317,7 +349,6 @@
             label2.Size = new Size(75, 15);
             label2.TabIndex = 25;
             label2.Text = "Banker Roll 2";
-            label2.Click += label2_Click;
             // 
             // label3
             // 
@@ -336,13 +367,109 @@
             label4.Size = new Size(71, 15);
             label4.TabIndex = 27;
             label4.Text = "Player Roll 2";
-            label4.Click += label4_Click;
+            // 
+            // progressBar1
+            // 
+            progressBar1.Location = new Point(236, 287);
+            progressBar1.Name = "progressBar1";
+            progressBar1.Size = new Size(330, 23);
+            progressBar1.TabIndex = 28;
+            // 
+            // progressBar2
+            // 
+            progressBar2.Location = new Point(236, 316);
+            progressBar2.Name = "progressBar2";
+            progressBar2.Size = new Size(330, 23);
+            progressBar2.TabIndex = 29;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(155, 316);
+            label5.Name = "label5";
+            label5.Size = new Size(75, 15);
+            label5.TabIndex = 30;
+            label5.Text = "Banker Score";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(155, 287);
+            label6.Name = "label6";
+            label6.Size = new Size(71, 15);
+            label6.TabIndex = 31;
+            label6.Text = "Player Score";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(572, 81);
+            label8.Name = "label8";
+            label8.Size = new Size(36, 15);
+            label8.TabIndex = 33;
+            label8.Text = "Roll 1";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(572, 137);
+            label9.Name = "label9";
+            label9.Size = new Size(36, 15);
+            label9.TabIndex = 34;
+            label9.Text = "Roll 2";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(572, 193);
+            label10.Name = "label10";
+            label10.Size = new Size(36, 15);
+            label10.TabIndex = 35;
+            label10.Text = "Roll 3";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(572, 249);
+            label11.Name = "label11";
+            label11.Size = new Size(36, 15);
+            label11.TabIndex = 36;
+            label11.Text = "Roll 4";
+            // 
+            // button25
+            // 
+            button25.Location = new Point(236, 345);
+            button25.Name = "button25";
+            button25.Size = new Size(75, 23);
+            button25.TabIndex = 37;
+            button25.Text = "Submit";
+            button25.UseVisualStyleBackColor = true;
+            button25.Click += button25_Click;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(236, 371);
+            label7.Name = "label7";
+            label7.Size = new Size(44, 15);
+            label7.TabIndex = 38;
+            label7.Text = "Results";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 561);
+            Controls.Add(label7);
+            Controls.Add(button25);
+            Controls.Add(label11);
+            Controls.Add(label10);
+            Controls.Add(label9);
+            Controls.Add(label8);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(progressBar2);
+            Controls.Add(progressBar1);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -408,5 +535,15 @@
         private Label label2;
         private Label label3;
         private Label label4;
+        private ProgressBar progressBar1;
+        private ProgressBar progressBar2;
+        private Label label5;
+        private Label label6;
+        private Label label8;
+        private Label label9;
+        private Label label10;
+        private Label label11;
+        private Button button25;
+        private Label label7;
     }
 }

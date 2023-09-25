@@ -1,0 +1,17 @@
+C:\dev\BacBo\bin\Debug\net6.0-windows\BacBo.exe
+C:\dev\BacBo\bin\Debug\net6.0-windows\BacBo.deps.json
+C:\dev\BacBo\bin\Debug\net6.0-windows\BacBo.runtimeconfig.json
+C:\dev\BacBo\bin\Debug\net6.0-windows\BacBo.dll
+C:\dev\BacBo\bin\Debug\net6.0-windows\BacBo.pdb
+C:\dev\BacBo\obj\Debug\net6.0-windows\BacBo.Form1.resources
+C:\dev\BacBo\obj\Debug\net6.0-windows\BacBo.Properties.Resources.resources
+C:\dev\BacBo\obj\Debug\net6.0-windows\BacBo.csproj.GenerateResource.cache
+C:\dev\BacBo\obj\Debug\net6.0-windows\BacBo.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\BacBo\obj\Debug\net6.0-windows\BacBo.AssemblyInfoInputs.cache
+C:\dev\BacBo\obj\Debug\net6.0-windows\BacBo.AssemblyInfo.cs
+C:\dev\BacBo\obj\Debug\net6.0-windows\BacBo.csproj.CoreCompileInputs.cache
+C:\dev\BacBo\obj\Debug\net6.0-windows\BacBo.dll
+C:\dev\BacBo\obj\Debug\net6.0-windows\refint\BacBo.dll
+C:\dev\BacBo\obj\Debug\net6.0-windows\BacBo.pdb
+C:\dev\BacBo\obj\Debug\net6.0-windows\BacBo.genruntimeconfig.cache
+C:\dev\BacBo\obj\Debug\net6.0-windows\ref\BacBo.dll
