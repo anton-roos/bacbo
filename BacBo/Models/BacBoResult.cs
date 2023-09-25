@@ -2,6 +2,7 @@
 
 public class BacBoResult
 {
+    public int Id { get; set; }
     public DateTime DrawDate { get; set; }
     public int PlayerFirstRoll { get; set; }
     public int BankerFirstRoll { get; set; }

@@ -58,3 +58,5 @@ C:\dev\BacBo\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
 C:\dev\BacBo\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
 C:\dev\BacBo\obj\Debug\net6.0-windows\BacBo.csproj.AssemblyReference.cache
 C:\dev\BacBo\obj\Debug\net6.0-windows\BacBo.csproj.CopyComplete
+C:\dev\BacBo\bin\Debug\net6.0-windows\Humanizer.dll
+C:\dev\BacBo\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
