@@ -207,7 +207,7 @@ public partial class Form1 : Form
         if (_bacBoResult.PlayerScore > _bacBoResult.BankerScore)
             _bacBoResult.PlayerWins = true;
 
-        if (_bacBoResult.PlayerScore > _bacBoResult.BankerScore)
+        if (_bacBoResult.PlayerScore < _bacBoResult.BankerScore)
             _bacBoResult.BankerWins = true;
 
         _bacBoResult.Source = "Betway Evolution Bac Bo";
@@ -222,6 +222,6 @@ public partial class Form1 : Form
             $"PlayerWins: {_bacBoResult.PlayerWins}\n" +
             $"BankerWins: {_bacBoResult.BankerWins}\n" +
             $"Tie: {_bacBoResult.Tie}\n" +
-            $"Source {_bacBoResult.Source}";
+            $"Source: {_bacBoResult.Source}";
     }
 }
