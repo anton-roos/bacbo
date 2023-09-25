@@ -52,6 +52,10 @@
             button22 = new Button();
             button23 = new Button();
             button24 = new Button();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
             SuspendLayout();
             // 
             // button1
@@ -82,7 +86,7 @@
             button3.Name = "button3";
             button3.Size = new Size(50, 50);
             button3.TabIndex = 2;
-            button3.Text = "1";
+            button3.Text = "3";
             button3.UseVisualStyleBackColor = false;
             // 
             // button4
@@ -92,7 +96,7 @@
             button4.Name = "button4";
             button4.Size = new Size(50, 50);
             button4.TabIndex = 3;
-            button4.Text = "1";
+            button4.Text = "4";
             button4.UseVisualStyleBackColor = false;
             // 
             // button5
@@ -102,7 +106,7 @@
             button5.Name = "button5";
             button5.Size = new Size(50, 50);
             button5.TabIndex = 4;
-            button5.Text = "1";
+            button5.Text = "5";
             button5.UseVisualStyleBackColor = false;
             // 
             // button6
@@ -112,7 +116,7 @@
             button6.Name = "button6";
             button6.Size = new Size(50, 50);
             button6.TabIndex = 5;
-            button6.Text = "3";
+            button6.Text = "6";
             button6.UseVisualStyleBackColor = false;
             // 
             // button7
@@ -132,7 +136,7 @@
             button8.Name = "button8";
             button8.Size = new Size(50, 50);
             button8.TabIndex = 7;
-            button8.Text = "3";
+            button8.Text = "2";
             button8.UseVisualStyleBackColor = false;
             // 
             // button9
@@ -152,7 +156,7 @@
             button10.Name = "button10";
             button10.Size = new Size(50, 50);
             button10.TabIndex = 9;
-            button10.Text = "3";
+            button10.Text = "4";
             button10.UseVisualStyleBackColor = false;
             // 
             // button11
@@ -162,7 +166,7 @@
             button11.Name = "button11";
             button11.Size = new Size(50, 50);
             button11.TabIndex = 10;
-            button11.Text = "3";
+            button11.Text = "5";
             button11.UseVisualStyleBackColor = false;
             // 
             // button12
@@ -172,7 +176,7 @@
             button12.Name = "button12";
             button12.Size = new Size(50, 50);
             button12.TabIndex = 11;
-            button12.Text = "3";
+            button12.Text = "6";
             button12.UseVisualStyleBackColor = false;
             // 
             // button13
@@ -182,7 +186,7 @@
             button13.Name = "button13";
             button13.Size = new Size(50, 50);
             button13.TabIndex = 12;
-            button13.Text = "3";
+            button13.Text = "1";
             button13.UseVisualStyleBackColor = false;
             // 
             // button14
@@ -192,7 +196,7 @@
             button14.Name = "button14";
             button14.Size = new Size(50, 50);
             button14.TabIndex = 13;
-            button14.Text = "3";
+            button14.Text = "2";
             button14.UseVisualStyleBackColor = false;
             // 
             // button15
@@ -212,7 +216,7 @@
             button16.Name = "button16";
             button16.Size = new Size(50, 50);
             button16.TabIndex = 15;
-            button16.Text = "3";
+            button16.Text = "4";
             button16.UseVisualStyleBackColor = false;
             // 
             // button17
@@ -222,7 +226,7 @@
             button17.Name = "button17";
             button17.Size = new Size(50, 50);
             button17.TabIndex = 16;
-            button17.Text = "3";
+            button17.Text = "5";
             button17.UseVisualStyleBackColor = false;
             // 
             // button18
@@ -232,7 +236,7 @@
             button18.Name = "button18";
             button18.Size = new Size(50, 50);
             button18.TabIndex = 17;
-            button18.Text = "3";
+            button18.Text = "6";
             button18.UseVisualStyleBackColor = false;
             // 
             // button19
@@ -272,7 +276,7 @@
             button22.Name = "button22";
             button22.Size = new Size(50, 50);
             button22.TabIndex = 21;
-            button22.Text = "3";
+            button22.Text = "4";
             button22.UseVisualStyleBackColor = false;
             // 
             // button23
@@ -282,7 +286,7 @@
             button23.Name = "button23";
             button23.Size = new Size(50, 50);
             button23.TabIndex = 22;
-            button23.Text = "3";
+            button23.Text = "5";
             button23.UseVisualStyleBackColor = false;
             // 
             // button24
@@ -292,14 +296,57 @@
             button24.Name = "button24";
             button24.Size = new Size(50, 50);
             button24.TabIndex = 23;
-            button24.Text = "3";
+            button24.Text = "6";
             button24.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(151, 81);
+            label1.Name = "label1";
+            label1.Size = new Size(71, 15);
+            label1.TabIndex = 24;
+            label1.Text = "Player Roll 1";
+            label1.Click += label1_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(151, 249);
+            label2.Name = "label2";
+            label2.Size = new Size(75, 15);
+            label2.TabIndex = 25;
+            label2.Text = "Banker Roll 2";
+            label2.Click += label2_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(151, 137);
+            label3.Name = "label3";
+            label3.Size = new Size(75, 15);
+            label3.TabIndex = 26;
+            label3.Text = "Banker Roll 1";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(151, 193);
+            label4.Name = "label4";
+            label4.Size = new Size(71, 15);
+            label4.TabIndex = 27;
+            label4.Text = "Player Roll 2";
+            label4.Click += label4_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
             Controls.Add(button24);
             Controls.Add(button23);
             Controls.Add(button22);
@@ -326,7 +373,9 @@
             Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -355,5 +404,9 @@
         private Button button22;
         private Button button23;
         private Button button24;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Label label4;
     }
 }
