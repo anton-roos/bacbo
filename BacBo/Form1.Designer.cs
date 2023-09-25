@@ -406,36 +406,32 @@
             label8.AutoSize = true;
             label8.Location = new Point(435, 71);
             label8.Name = "label8";
-            label8.Size = new Size(36, 15);
+            label8.Size = new Size(0, 15);
             label8.TabIndex = 33;
-            label8.Text = "Roll 1";
             // 
             // label9
             // 
             label9.AutoSize = true;
             label9.Location = new Point(435, 127);
             label9.Name = "label9";
-            label9.Size = new Size(36, 15);
+            label9.Size = new Size(0, 15);
             label9.TabIndex = 34;
-            label9.Text = "Roll 2";
             // 
             // label10
             // 
             label10.AutoSize = true;
             label10.Location = new Point(435, 183);
             label10.Name = "label10";
-            label10.Size = new Size(36, 15);
+            label10.Size = new Size(0, 15);
             label10.TabIndex = 35;
-            label10.Text = "Roll 3";
             // 
             // label11
             // 
             label11.AutoSize = true;
             label11.Location = new Point(435, 239);
             label11.Name = "label11";
-            label11.Size = new Size(36, 15);
+            label11.Size = new Size(0, 15);
             label11.TabIndex = 36;
-            label11.Text = "Roll 4";
             // 
             // button25
             // 
