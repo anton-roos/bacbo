@@ -295,10 +295,31 @@ public partial class Home : Form
         var BankerRollTwoSixCount = itemList.Where(x => x.BankerSecondRoll == 6).ToList().Count.ToString();
 
         proll1frequency.Text = PlayerRollOneOneCount;
-    }
+        proll2frequency.Text = PlayerRollOneTwoCount;
+        proll3frequency.Text = PlayerRollOneThreeCount;
+        proll4frequency.Text = PlayerRollOneFourCount;
+        proll5frequency.Text = PlayerRollOneFiveCount;
+        proll6frequency.Text = PlayerRollOneSixCount;
 
-    private void label13_Click(object sender, EventArgs e)
-    {
+        p2roll1frequency.Text = PlayerRollTwoOneCount;
+        p2roll2frequency.Text = PlayerRollTwoTwoCount;
+        p2roll3frequency.Text = PlayerRollTwoThreeCount;
+        p2roll4frequency.Text = PlayerRollTwoFourCount;
+        p2roll5frequency.Text = PlayerRollTwoFiveCount;
+        p2roll6frequency.Text = PlayerRollTwoSixCount;
 
+        broll1frequency.Text = BankerRollOneOneCount;
+        broll2frequency.Text = BankerRollOneTwoCount;
+        broll3frequency.Text = BankerRollOneThreeCount;
+        broll4frequency.Text = BankerRollOneFourCount;
+        broll5frequency.Text = BankerRollOneFiveCount;
+        broll6frequency.Text = BankerRollOneSixCount;
+
+        b2roll1frequency.Text = BankerRollTwoOneCount;
+        b2roll2frequency.Text = BankerRollTwoTwoCount;
+        b2roll3frequency.Text = BankerRollTwoThreeCount;
+        b2roll4frequency.Text = BankerRollTwoFourCount;
+        b2roll5frequency.Text = BankerRollTwoFiveCount;
+        b2roll6frequency.Text = BankerRollTwoSixCount;
     }
 }

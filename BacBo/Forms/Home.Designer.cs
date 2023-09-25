@@ -74,55 +74,55 @@
             listBox1 = new ListBox();
             button26 = new Button();
             tabPage3 = new TabPage();
-            label25 = new Label();
-            label24 = new Label();
-            label23 = new Label();
-            label22 = new Label();
-            label21 = new Label();
-            label20 = new Label();
-            label19 = new Label();
-            button27 = new Button();
-            proll3frequency = new Label();
-            proll2frequency = new Label();
+            b2roll6frequency = new Label();
+            label36 = new Label();
             proll1frequency = new Label();
+            label35 = new Label();
+            b2roll5frequency = new Label();
+            label34 = new Label();
+            proll2frequency = new Label();
+            b2roll4frequency = new Label();
+            label33 = new Label();
+            proll3frequency = new Label();
+            label32 = new Label();
+            b2roll3frequency = new Label();
+            label31 = new Label();
+            proll4frequency = new Label();
+            label30 = new Label();
+            b2roll2frequency = new Label();
+            label29 = new Label();
+            proll5frequency = new Label();
+            label28 = new Label();
+            b2roll1frequency = new Label();
+            label27 = new Label();
+            proll6frequency = new Label();
+            label26 = new Label();
+            broll6frequency = new Label();
+            label25 = new Label();
+            p2roll1frequency = new Label();
+            label24 = new Label();
+            broll5frequency = new Label();
+            label23 = new Label();
+            p2roll2frequency = new Label();
+            label22 = new Label();
+            broll4frequency = new Label();
+            label21 = new Label();
+            p2roll3frequency = new Label();
+            label20 = new Label();
+            broll3frequency = new Label();
+            label19 = new Label();
+            p2roll4frequency = new Label();
+            button27 = new Button();
+            broll2frequency = new Label();
             label18 = new Label();
+            p2roll5frequency = new Label();
             label17 = new Label();
+            broll1frequency = new Label();
             label16 = new Label();
+            p2roll6frequency = new Label();
             label15 = new Label();
             label14 = new Label();
             label13 = new Label();
-            label26 = new Label();
-            label27 = new Label();
-            label28 = new Label();
-            label29 = new Label();
-            label30 = new Label();
-            label31 = new Label();
-            label32 = new Label();
-            label33 = new Label();
-            label34 = new Label();
-            label35 = new Label();
-            label36 = new Label();
-            proll4frequency = new Label();
-            proll5frequency = new Label();
-            proll6frequency = new Label();
-            p2roll1frequency = new Label();
-            p2roll2frequency = new Label();
-            p2roll3frequency = new Label();
-            p2roll4frequency = new Label();
-            p2roll5frequency = new Label();
-            p2roll6frequency = new Label();
-            broll1frequency = new Label();
-            broll2frequency = new Label();
-            broll3frequency = new Label();
-            label49 = new Label();
-            broll5frequency = new Label();
-            broll6frequency = new Label();
-            b2roll1frequency = new Label();
-            b2roll2frequency = new Label();
-            b2roll3frequency = new Label();
-            b2roll4frequency = new Label();
-            b2roll5frequency = new Label();
-            b2roll6frequency = new Label();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
@@ -614,51 +614,51 @@
             // tabPage3
             // 
             tabPage3.Controls.Add(b2roll6frequency);
-            tabPage3.Controls.Add(b2roll5frequency);
-            tabPage3.Controls.Add(b2roll4frequency);
-            tabPage3.Controls.Add(b2roll3frequency);
-            tabPage3.Controls.Add(b2roll2frequency);
-            tabPage3.Controls.Add(b2roll1frequency);
-            tabPage3.Controls.Add(broll6frequency);
-            tabPage3.Controls.Add(broll5frequency);
-            tabPage3.Controls.Add(label49);
-            tabPage3.Controls.Add(broll3frequency);
-            tabPage3.Controls.Add(broll2frequency);
-            tabPage3.Controls.Add(broll1frequency);
-            tabPage3.Controls.Add(p2roll6frequency);
-            tabPage3.Controls.Add(p2roll5frequency);
-            tabPage3.Controls.Add(p2roll4frequency);
-            tabPage3.Controls.Add(p2roll3frequency);
-            tabPage3.Controls.Add(p2roll2frequency);
-            tabPage3.Controls.Add(p2roll1frequency);
-            tabPage3.Controls.Add(proll6frequency);
-            tabPage3.Controls.Add(proll5frequency);
-            tabPage3.Controls.Add(proll4frequency);
             tabPage3.Controls.Add(label36);
-            tabPage3.Controls.Add(label35);
-            tabPage3.Controls.Add(label34);
-            tabPage3.Controls.Add(label33);
-            tabPage3.Controls.Add(label32);
-            tabPage3.Controls.Add(label31);
-            tabPage3.Controls.Add(label30);
-            tabPage3.Controls.Add(label29);
-            tabPage3.Controls.Add(label28);
-            tabPage3.Controls.Add(label27);
-            tabPage3.Controls.Add(label26);
-            tabPage3.Controls.Add(label25);
-            tabPage3.Controls.Add(label24);
-            tabPage3.Controls.Add(label23);
-            tabPage3.Controls.Add(label22);
-            tabPage3.Controls.Add(label21);
-            tabPage3.Controls.Add(label20);
-            tabPage3.Controls.Add(label19);
-            tabPage3.Controls.Add(button27);
-            tabPage3.Controls.Add(proll3frequency);
-            tabPage3.Controls.Add(proll2frequency);
             tabPage3.Controls.Add(proll1frequency);
+            tabPage3.Controls.Add(label35);
+            tabPage3.Controls.Add(b2roll5frequency);
+            tabPage3.Controls.Add(label34);
+            tabPage3.Controls.Add(proll2frequency);
+            tabPage3.Controls.Add(b2roll4frequency);
+            tabPage3.Controls.Add(label33);
+            tabPage3.Controls.Add(proll3frequency);
+            tabPage3.Controls.Add(label32);
+            tabPage3.Controls.Add(b2roll3frequency);
+            tabPage3.Controls.Add(label31);
+            tabPage3.Controls.Add(proll4frequency);
+            tabPage3.Controls.Add(label30);
+            tabPage3.Controls.Add(b2roll2frequency);
+            tabPage3.Controls.Add(label29);
+            tabPage3.Controls.Add(proll5frequency);
+            tabPage3.Controls.Add(label28);
+            tabPage3.Controls.Add(b2roll1frequency);
+            tabPage3.Controls.Add(label27);
+            tabPage3.Controls.Add(proll6frequency);
+            tabPage3.Controls.Add(label26);
+            tabPage3.Controls.Add(broll6frequency);
+            tabPage3.Controls.Add(label25);
+            tabPage3.Controls.Add(p2roll1frequency);
+            tabPage3.Controls.Add(label24);
+            tabPage3.Controls.Add(broll5frequency);
+            tabPage3.Controls.Add(label23);
+            tabPage3.Controls.Add(p2roll2frequency);
+            tabPage3.Controls.Add(label22);
+            tabPage3.Controls.Add(broll4frequency);
+            tabPage3.Controls.Add(label21);
+            tabPage3.Controls.Add(p2roll3frequency);
+            tabPage3.Controls.Add(label20);
+            tabPage3.Controls.Add(broll3frequency);
+            tabPage3.Controls.Add(label19);
+            tabPage3.Controls.Add(p2roll4frequency);
+            tabPage3.Controls.Add(button27);
+            tabPage3.Controls.Add(broll2frequency);
             tabPage3.Controls.Add(label18);
+            tabPage3.Controls.Add(p2roll5frequency);
             tabPage3.Controls.Add(label17);
+            tabPage3.Controls.Add(broll1frequency);
             tabPage3.Controls.Add(label16);
+            tabPage3.Controls.Add(p2roll6frequency);
             tabPage3.Controls.Add(label15);
             tabPage3.Controls.Add(label14);
             tabPage3.Controls.Add(label13);
@@ -670,68 +670,347 @@
             tabPage3.Text = "Stats";
             tabPage3.UseVisualStyleBackColor = true;
             // 
+            // b2roll6frequency
+            // 
+            b2roll6frequency.AutoSize = true;
+            b2roll6frequency.Location = new Point(106, 389);
+            b2roll6frequency.Name = "b2roll6frequency";
+            b2roll6frequency.Size = new Size(13, 15);
+            b2roll6frequency.TabIndex = 48;
+            b2roll6frequency.Text = "0";
+            // 
+            // label36
+            // 
+            label36.AutoSize = true;
+            label36.Location = new Point(6, 389);
+            label36.Name = "label36";
+            label36.Size = new Size(94, 15);
+            label36.TabIndex = 27;
+            label36.Text = "B Dice 2 Rolls (6)";
+            // 
+            // proll1frequency
+            // 
+            proll1frequency.AutoSize = true;
+            proll1frequency.Location = new Point(106, 17);
+            proll1frequency.Name = "proll1frequency";
+            proll1frequency.Size = new Size(13, 15);
+            proll1frequency.TabIndex = 6;
+            proll1frequency.Text = "0";
+            // 
+            // label35
+            // 
+            label35.AutoSize = true;
+            label35.Location = new Point(6, 374);
+            label35.Name = "label35";
+            label35.Size = new Size(94, 15);
+            label35.TabIndex = 26;
+            label35.Text = "B Dice 2 Rolls (5)";
+            // 
+            // b2roll5frequency
+            // 
+            b2roll5frequency.AutoSize = true;
+            b2roll5frequency.Location = new Point(106, 374);
+            b2roll5frequency.Name = "b2roll5frequency";
+            b2roll5frequency.Size = new Size(13, 15);
+            b2roll5frequency.TabIndex = 47;
+            b2roll5frequency.Text = "0";
+            // 
+            // label34
+            // 
+            label34.AutoSize = true;
+            label34.Location = new Point(6, 359);
+            label34.Name = "label34";
+            label34.Size = new Size(94, 15);
+            label34.TabIndex = 25;
+            label34.Text = "B Dice 2 Rolls (4)";
+            // 
+            // proll2frequency
+            // 
+            proll2frequency.AutoSize = true;
+            proll2frequency.Location = new Point(106, 32);
+            proll2frequency.Name = "proll2frequency";
+            proll2frequency.Size = new Size(13, 15);
+            proll2frequency.TabIndex = 7;
+            proll2frequency.Text = "0";
+            // 
+            // b2roll4frequency
+            // 
+            b2roll4frequency.AutoSize = true;
+            b2roll4frequency.Location = new Point(106, 359);
+            b2roll4frequency.Name = "b2roll4frequency";
+            b2roll4frequency.Size = new Size(13, 15);
+            b2roll4frequency.TabIndex = 46;
+            b2roll4frequency.Text = "0";
+            // 
+            // label33
+            // 
+            label33.AutoSize = true;
+            label33.Location = new Point(6, 344);
+            label33.Name = "label33";
+            label33.Size = new Size(94, 15);
+            label33.TabIndex = 24;
+            label33.Text = "B Dice 2 Rolls (3)";
+            // 
+            // proll3frequency
+            // 
+            proll3frequency.AutoSize = true;
+            proll3frequency.Location = new Point(106, 47);
+            proll3frequency.Name = "proll3frequency";
+            proll3frequency.Size = new Size(13, 15);
+            proll3frequency.TabIndex = 8;
+            proll3frequency.Text = "0";
+            // 
+            // label32
+            // 
+            label32.AutoSize = true;
+            label32.Location = new Point(6, 329);
+            label32.Name = "label32";
+            label32.Size = new Size(94, 15);
+            label32.TabIndex = 23;
+            label32.Text = "B Dice 2 Rolls (2)";
+            // 
+            // b2roll3frequency
+            // 
+            b2roll3frequency.AutoSize = true;
+            b2roll3frequency.Location = new Point(106, 344);
+            b2roll3frequency.Name = "b2roll3frequency";
+            b2roll3frequency.Size = new Size(13, 15);
+            b2roll3frequency.TabIndex = 45;
+            b2roll3frequency.Text = "0";
+            // 
+            // label31
+            // 
+            label31.AutoSize = true;
+            label31.Location = new Point(6, 314);
+            label31.Name = "label31";
+            label31.Size = new Size(94, 15);
+            label31.TabIndex = 22;
+            label31.Text = "B Dice 2 Rolls (1)";
+            // 
+            // proll4frequency
+            // 
+            proll4frequency.AutoSize = true;
+            proll4frequency.Location = new Point(106, 60);
+            proll4frequency.Name = "proll4frequency";
+            proll4frequency.Size = new Size(13, 15);
+            proll4frequency.TabIndex = 28;
+            proll4frequency.Text = "0";
+            // 
+            // label30
+            // 
+            label30.AutoSize = true;
+            label30.Location = new Point(6, 290);
+            label30.Name = "label30";
+            label30.Size = new Size(94, 15);
+            label30.TabIndex = 21;
+            label30.Text = "B Dice 1 Rolls (6)";
+            // 
+            // b2roll2frequency
+            // 
+            b2roll2frequency.AutoSize = true;
+            b2roll2frequency.Location = new Point(106, 329);
+            b2roll2frequency.Name = "b2roll2frequency";
+            b2roll2frequency.Size = new Size(13, 15);
+            b2roll2frequency.TabIndex = 44;
+            b2roll2frequency.Text = "0";
+            // 
+            // label29
+            // 
+            label29.AutoSize = true;
+            label29.Location = new Point(6, 275);
+            label29.Name = "label29";
+            label29.Size = new Size(94, 15);
+            label29.TabIndex = 20;
+            label29.Text = "B Dice 1 Rolls (5)";
+            // 
+            // proll5frequency
+            // 
+            proll5frequency.AutoSize = true;
+            proll5frequency.Location = new Point(106, 75);
+            proll5frequency.Name = "proll5frequency";
+            proll5frequency.Size = new Size(13, 15);
+            proll5frequency.TabIndex = 29;
+            proll5frequency.Text = "0";
+            // 
+            // label28
+            // 
+            label28.AutoSize = true;
+            label28.Location = new Point(6, 260);
+            label28.Name = "label28";
+            label28.Size = new Size(94, 15);
+            label28.TabIndex = 19;
+            label28.Text = "B Dice 1 Rolls (4)";
+            // 
+            // b2roll1frequency
+            // 
+            b2roll1frequency.AutoSize = true;
+            b2roll1frequency.Location = new Point(106, 314);
+            b2roll1frequency.Name = "b2roll1frequency";
+            b2roll1frequency.Size = new Size(13, 15);
+            b2roll1frequency.TabIndex = 43;
+            b2roll1frequency.Text = "0";
+            // 
+            // label27
+            // 
+            label27.AutoSize = true;
+            label27.Location = new Point(6, 245);
+            label27.Name = "label27";
+            label27.Size = new Size(94, 15);
+            label27.TabIndex = 18;
+            label27.Text = "B Dice 1 Rolls (3)";
+            // 
+            // proll6frequency
+            // 
+            proll6frequency.AutoSize = true;
+            proll6frequency.Location = new Point(106, 90);
+            proll6frequency.Name = "proll6frequency";
+            proll6frequency.Size = new Size(13, 15);
+            proll6frequency.TabIndex = 30;
+            proll6frequency.Text = "0";
+            // 
+            // label26
+            // 
+            label26.AutoSize = true;
+            label26.Location = new Point(6, 230);
+            label26.Name = "label26";
+            label26.Size = new Size(94, 15);
+            label26.TabIndex = 17;
+            label26.Text = "B Dice 1 Rolls (2)";
+            // 
+            // broll6frequency
+            // 
+            broll6frequency.AutoSize = true;
+            broll6frequency.Location = new Point(106, 290);
+            broll6frequency.Name = "broll6frequency";
+            broll6frequency.Size = new Size(13, 15);
+            broll6frequency.TabIndex = 42;
+            broll6frequency.Text = "0";
+            // 
             // label25
             // 
             label25.AutoSize = true;
-            label25.Location = new Point(6, 201);
+            label25.Location = new Point(6, 215);
             label25.Name = "label25";
-            label25.Size = new Size(101, 15);
+            label25.Size = new Size(94, 15);
             label25.TabIndex = 16;
-            label25.Text = "BRoll 1 Frequency";
+            label25.Text = "B Dice 1 Rolls (1)";
+            // 
+            // p2roll1frequency
+            // 
+            p2roll1frequency.AutoSize = true;
+            p2roll1frequency.Location = new Point(106, 116);
+            p2roll1frequency.Name = "p2roll1frequency";
+            p2roll1frequency.Size = new Size(13, 15);
+            p2roll1frequency.TabIndex = 31;
+            p2roll1frequency.Text = "0";
             // 
             // label24
             // 
             label24.AutoSize = true;
-            label24.Location = new Point(6, 177);
+            label24.Location = new Point(6, 191);
             label24.Name = "label24";
-            label24.Size = new Size(107, 15);
+            label24.Size = new Size(94, 15);
             label24.TabIndex = 15;
-            label24.Text = "P2Roll 6 Frequency";
+            label24.Text = "P Dice 2 Rolls (6)";
+            // 
+            // broll5frequency
+            // 
+            broll5frequency.AutoSize = true;
+            broll5frequency.Location = new Point(106, 275);
+            broll5frequency.Name = "broll5frequency";
+            broll5frequency.Size = new Size(13, 15);
+            broll5frequency.TabIndex = 41;
+            broll5frequency.Text = "0";
             // 
             // label23
             // 
             label23.AutoSize = true;
-            label23.Location = new Point(6, 162);
+            label23.Location = new Point(6, 176);
             label23.Name = "label23";
-            label23.Size = new Size(107, 15);
+            label23.Size = new Size(94, 15);
             label23.TabIndex = 14;
-            label23.Text = "P2Roll 5 Frequency";
+            label23.Text = "P Dice 2 Rolls (5)";
+            // 
+            // p2roll2frequency
+            // 
+            p2roll2frequency.AutoSize = true;
+            p2roll2frequency.Location = new Point(106, 131);
+            p2roll2frequency.Name = "p2roll2frequency";
+            p2roll2frequency.Size = new Size(13, 15);
+            p2roll2frequency.TabIndex = 32;
+            p2roll2frequency.Text = "0";
             // 
             // label22
             // 
             label22.AutoSize = true;
-            label22.Location = new Point(6, 147);
+            label22.Location = new Point(6, 161);
             label22.Name = "label22";
-            label22.Size = new Size(107, 15);
+            label22.Size = new Size(94, 15);
             label22.TabIndex = 13;
-            label22.Text = "P2Roll 4 Frequency";
+            label22.Text = "P Dice 2 Rolls (4)";
+            // 
+            // broll4frequency
+            // 
+            broll4frequency.AutoSize = true;
+            broll4frequency.Location = new Point(106, 260);
+            broll4frequency.Name = "broll4frequency";
+            broll4frequency.Size = new Size(13, 15);
+            broll4frequency.TabIndex = 40;
+            broll4frequency.Text = "0";
             // 
             // label21
             // 
             label21.AutoSize = true;
-            label21.Location = new Point(6, 132);
+            label21.Location = new Point(6, 146);
             label21.Name = "label21";
-            label21.Size = new Size(107, 15);
+            label21.Size = new Size(94, 15);
             label21.TabIndex = 12;
-            label21.Text = "P2Roll 3 Frequency";
+            label21.Text = "P Dice 2 Rolls (3)";
+            // 
+            // p2roll3frequency
+            // 
+            p2roll3frequency.AutoSize = true;
+            p2roll3frequency.Location = new Point(106, 146);
+            p2roll3frequency.Name = "p2roll3frequency";
+            p2roll3frequency.Size = new Size(13, 15);
+            p2roll3frequency.TabIndex = 33;
+            p2roll3frequency.Text = "0";
             // 
             // label20
             // 
             label20.AutoSize = true;
-            label20.Location = new Point(6, 117);
+            label20.Location = new Point(6, 131);
             label20.Name = "label20";
-            label20.Size = new Size(107, 15);
+            label20.Size = new Size(94, 15);
             label20.TabIndex = 11;
-            label20.Text = "P2Roll 2 Frequency";
+            label20.Text = "P Dice 2 Rolls (2)";
+            // 
+            // broll3frequency
+            // 
+            broll3frequency.AutoSize = true;
+            broll3frequency.Location = new Point(106, 245);
+            broll3frequency.Name = "broll3frequency";
+            broll3frequency.Size = new Size(13, 15);
+            broll3frequency.TabIndex = 39;
+            broll3frequency.Text = "0";
             // 
             // label19
             // 
             label19.AutoSize = true;
-            label19.Location = new Point(6, 102);
+            label19.Location = new Point(6, 116);
             label19.Name = "label19";
-            label19.Size = new Size(107, 15);
+            label19.Size = new Size(94, 15);
             label19.TabIndex = 10;
-            label19.Text = "P2Roll 1 Frequency";
+            label19.Text = "P Dice 2 Rolls (1)";
+            // 
+            // p2roll4frequency
+            // 
+            p2roll4frequency.AutoSize = true;
+            p2roll4frequency.Location = new Point(106, 161);
+            p2roll4frequency.Name = "p2roll4frequency";
+            p2roll4frequency.Size = new Size(13, 15);
+            p2roll4frequency.TabIndex = 34;
+            p2roll4frequency.Text = "0";
             // 
             // button27
             // 
@@ -743,351 +1022,95 @@
             button27.UseVisualStyleBackColor = true;
             button27.Click += button27_Click;
             // 
-            // proll3frequency
+            // broll2frequency
             // 
-            proll3frequency.AutoSize = true;
-            proll3frequency.Location = new Point(113, 33);
-            proll3frequency.Name = "proll3frequency";
-            proll3frequency.Size = new Size(0, 15);
-            proll3frequency.TabIndex = 8;
-            // 
-            // proll2frequency
-            // 
-            proll2frequency.AutoSize = true;
-            proll2frequency.Location = new Point(113, 18);
-            proll2frequency.Name = "proll2frequency";
-            proll2frequency.Size = new Size(0, 15);
-            proll2frequency.TabIndex = 7;
-            // 
-            // proll1frequency
-            // 
-            proll1frequency.AutoSize = true;
-            proll1frequency.Location = new Point(113, 3);
-            proll1frequency.Name = "proll1frequency";
-            proll1frequency.Size = new Size(0, 15);
-            proll1frequency.TabIndex = 6;
+            broll2frequency.AutoSize = true;
+            broll2frequency.Location = new Point(106, 230);
+            broll2frequency.Name = "broll2frequency";
+            broll2frequency.Size = new Size(13, 15);
+            broll2frequency.TabIndex = 38;
+            broll2frequency.Text = "0";
             // 
             // label18
             // 
             label18.AutoSize = true;
-            label18.Location = new Point(6, 78);
+            label18.Location = new Point(6, 92);
             label18.Name = "label18";
-            label18.Size = new Size(101, 15);
+            label18.Size = new Size(94, 15);
             label18.TabIndex = 5;
-            label18.Text = "PRoll 6 Frequency";
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.Location = new Point(6, 63);
-            label17.Name = "label17";
-            label17.Size = new Size(101, 15);
-            label17.TabIndex = 4;
-            label17.Text = "PRoll 5 Frequency";
-            // 
-            // label16
-            // 
-            label16.AutoSize = true;
-            label16.Location = new Point(6, 48);
-            label16.Name = "label16";
-            label16.Size = new Size(101, 15);
-            label16.TabIndex = 3;
-            label16.Text = "PRoll 4 Frequency";
-            // 
-            // label15
-            // 
-            label15.AutoSize = true;
-            label15.Location = new Point(6, 33);
-            label15.Name = "label15";
-            label15.Size = new Size(101, 15);
-            label15.TabIndex = 2;
-            label15.Text = "PRoll 3 Frequency";
-            // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.Location = new Point(6, 18);
-            label14.Name = "label14";
-            label14.Size = new Size(101, 15);
-            label14.TabIndex = 1;
-            label14.Text = "PRoll 2 Frequency";
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Location = new Point(6, 3);
-            label13.Name = "label13";
-            label13.Size = new Size(101, 15);
-            label13.TabIndex = 0;
-            label13.Text = "PRoll 1 Frequency";
-            label13.Click += label13_Click;
-            // 
-            // label26
-            // 
-            label26.AutoSize = true;
-            label26.Location = new Point(6, 216);
-            label26.Name = "label26";
-            label26.Size = new Size(101, 15);
-            label26.TabIndex = 17;
-            label26.Text = "BRoll 2 Frequency";
-            // 
-            // label27
-            // 
-            label27.AutoSize = true;
-            label27.Location = new Point(6, 231);
-            label27.Name = "label27";
-            label27.Size = new Size(101, 15);
-            label27.TabIndex = 18;
-            label27.Text = "BRoll 3 Frequency";
-            // 
-            // label28
-            // 
-            label28.AutoSize = true;
-            label28.Location = new Point(6, 246);
-            label28.Name = "label28";
-            label28.Size = new Size(101, 15);
-            label28.TabIndex = 19;
-            label28.Text = "BRoll 4 Frequency";
-            // 
-            // label29
-            // 
-            label29.AutoSize = true;
-            label29.Location = new Point(6, 261);
-            label29.Name = "label29";
-            label29.Size = new Size(101, 15);
-            label29.TabIndex = 20;
-            label29.Text = "BRoll 5 Frequency";
-            // 
-            // label30
-            // 
-            label30.AutoSize = true;
-            label30.Location = new Point(6, 276);
-            label30.Name = "label30";
-            label30.Size = new Size(101, 15);
-            label30.TabIndex = 21;
-            label30.Text = "BRoll 6 Frequency";
-            // 
-            // label31
-            // 
-            label31.AutoSize = true;
-            label31.Location = new Point(6, 300);
-            label31.Name = "label31";
-            label31.Size = new Size(107, 15);
-            label31.TabIndex = 22;
-            label31.Text = "B2Roll 1 Frequency";
-            // 
-            // label32
-            // 
-            label32.AutoSize = true;
-            label32.Location = new Point(6, 315);
-            label32.Name = "label32";
-            label32.Size = new Size(107, 15);
-            label32.TabIndex = 23;
-            label32.Text = "B2Roll 2 Frequency";
-            // 
-            // label33
-            // 
-            label33.AutoSize = true;
-            label33.Location = new Point(6, 330);
-            label33.Name = "label33";
-            label33.Size = new Size(107, 15);
-            label33.TabIndex = 24;
-            label33.Text = "B2Roll 3 Frequency";
-            // 
-            // label34
-            // 
-            label34.AutoSize = true;
-            label34.Location = new Point(6, 345);
-            label34.Name = "label34";
-            label34.Size = new Size(107, 15);
-            label34.TabIndex = 25;
-            label34.Text = "B2Roll 4 Frequency";
-            // 
-            // label35
-            // 
-            label35.AutoSize = true;
-            label35.Location = new Point(6, 360);
-            label35.Name = "label35";
-            label35.Size = new Size(107, 15);
-            label35.TabIndex = 26;
-            label35.Text = "B2Roll 5 Frequency";
-            // 
-            // label36
-            // 
-            label36.AutoSize = true;
-            label36.Location = new Point(6, 375);
-            label36.Name = "label36";
-            label36.Size = new Size(107, 15);
-            label36.TabIndex = 27;
-            label36.Text = "B2Roll 6 Frequency";
-            // 
-            // proll4frequency
-            // 
-            proll4frequency.AutoSize = true;
-            proll4frequency.Location = new Point(113, 48);
-            proll4frequency.Name = "proll4frequency";
-            proll4frequency.Size = new Size(0, 15);
-            proll4frequency.TabIndex = 28;
-            // 
-            // proll5frequency
-            // 
-            proll5frequency.AutoSize = true;
-            proll5frequency.Location = new Point(113, 63);
-            proll5frequency.Name = "proll5frequency";
-            proll5frequency.Size = new Size(0, 15);
-            proll5frequency.TabIndex = 29;
-            // 
-            // proll6frequency
-            // 
-            proll6frequency.AutoSize = true;
-            proll6frequency.Location = new Point(113, 78);
-            proll6frequency.Name = "proll6frequency";
-            proll6frequency.Size = new Size(0, 15);
-            proll6frequency.TabIndex = 30;
-            // 
-            // p2roll1frequency
-            // 
-            p2roll1frequency.AutoSize = true;
-            p2roll1frequency.Location = new Point(119, 102);
-            p2roll1frequency.Name = "p2roll1frequency";
-            p2roll1frequency.Size = new Size(0, 15);
-            p2roll1frequency.TabIndex = 31;
-            // 
-            // p2roll2frequency
-            // 
-            p2roll2frequency.AutoSize = true;
-            p2roll2frequency.Location = new Point(119, 117);
-            p2roll2frequency.Name = "p2roll2frequency";
-            p2roll2frequency.Size = new Size(0, 15);
-            p2roll2frequency.TabIndex = 32;
-            // 
-            // p2roll3frequency
-            // 
-            p2roll3frequency.AutoSize = true;
-            p2roll3frequency.Location = new Point(119, 132);
-            p2roll3frequency.Name = "p2roll3frequency";
-            p2roll3frequency.Size = new Size(0, 15);
-            p2roll3frequency.TabIndex = 33;
-            // 
-            // p2roll4frequency
-            // 
-            p2roll4frequency.AutoSize = true;
-            p2roll4frequency.Location = new Point(119, 147);
-            p2roll4frequency.Name = "p2roll4frequency";
-            p2roll4frequency.Size = new Size(0, 15);
-            p2roll4frequency.TabIndex = 34;
+            label18.Text = "P Dice 1 Rolls (6)";
             // 
             // p2roll5frequency
             // 
             p2roll5frequency.AutoSize = true;
-            p2roll5frequency.Location = new Point(119, 162);
+            p2roll5frequency.Location = new Point(106, 176);
             p2roll5frequency.Name = "p2roll5frequency";
-            p2roll5frequency.Size = new Size(0, 15);
+            p2roll5frequency.Size = new Size(13, 15);
             p2roll5frequency.TabIndex = 35;
+            p2roll5frequency.Text = "0";
             // 
-            // p2roll6frequency
+            // label17
             // 
-            p2roll6frequency.AutoSize = true;
-            p2roll6frequency.Location = new Point(119, 177);
-            p2roll6frequency.Name = "p2roll6frequency";
-            p2roll6frequency.Size = new Size(0, 15);
-            p2roll6frequency.TabIndex = 36;
+            label17.AutoSize = true;
+            label17.Location = new Point(6, 77);
+            label17.Name = "label17";
+            label17.Size = new Size(94, 15);
+            label17.TabIndex = 4;
+            label17.Text = "P Dice 1 Rolls (5)";
             // 
             // broll1frequency
             // 
             broll1frequency.AutoSize = true;
-            broll1frequency.Location = new Point(119, 201);
+            broll1frequency.Location = new Point(106, 215);
             broll1frequency.Name = "broll1frequency";
-            broll1frequency.Size = new Size(0, 15);
+            broll1frequency.Size = new Size(13, 15);
             broll1frequency.TabIndex = 37;
+            broll1frequency.Text = "0";
             // 
-            // broll2frequency
+            // label16
             // 
-            broll2frequency.AutoSize = true;
-            broll2frequency.Location = new Point(119, 216);
-            broll2frequency.Name = "broll2frequency";
-            broll2frequency.Size = new Size(0, 15);
-            broll2frequency.TabIndex = 38;
+            label16.AutoSize = true;
+            label16.Location = new Point(6, 62);
+            label16.Name = "label16";
+            label16.Size = new Size(94, 15);
+            label16.TabIndex = 3;
+            label16.Text = "P Dice 1 Rolls (4)";
             // 
-            // broll3frequency
+            // p2roll6frequency
             // 
-            broll3frequency.AutoSize = true;
-            broll3frequency.Location = new Point(119, 231);
-            broll3frequency.Name = "broll3frequency";
-            broll3frequency.Size = new Size(0, 15);
-            broll3frequency.TabIndex = 39;
+            p2roll6frequency.AutoSize = true;
+            p2roll6frequency.Location = new Point(106, 191);
+            p2roll6frequency.Name = "p2roll6frequency";
+            p2roll6frequency.Size = new Size(13, 15);
+            p2roll6frequency.TabIndex = 36;
+            p2roll6frequency.Text = "0";
             // 
-            // label49
+            // label15
             // 
-            label49.AutoSize = true;
-            label49.Location = new Point(119, 246);
-            label49.Name = "label49";
-            label49.Size = new Size(0, 15);
-            label49.TabIndex = 40;
+            label15.AutoSize = true;
+            label15.Location = new Point(6, 47);
+            label15.Name = "label15";
+            label15.Size = new Size(94, 15);
+            label15.TabIndex = 2;
+            label15.Text = "P Dice 1 Rolls (3)";
             // 
-            // broll5frequency
+            // label14
             // 
-            broll5frequency.AutoSize = true;
-            broll5frequency.Location = new Point(119, 261);
-            broll5frequency.Name = "broll5frequency";
-            broll5frequency.Size = new Size(0, 15);
-            broll5frequency.TabIndex = 41;
+            label14.AutoSize = true;
+            label14.Location = new Point(6, 32);
+            label14.Name = "label14";
+            label14.Size = new Size(94, 15);
+            label14.TabIndex = 1;
+            label14.Text = "P Dice 1 Rolls (2)";
             // 
-            // broll6frequency
+            // label13
             // 
-            broll6frequency.AutoSize = true;
-            broll6frequency.Location = new Point(119, 276);
-            broll6frequency.Name = "broll6frequency";
-            broll6frequency.Size = new Size(0, 15);
-            broll6frequency.TabIndex = 42;
-            // 
-            // b2roll1frequency
-            // 
-            b2roll1frequency.AutoSize = true;
-            b2roll1frequency.Location = new Point(119, 300);
-            b2roll1frequency.Name = "b2roll1frequency";
-            b2roll1frequency.Size = new Size(0, 15);
-            b2roll1frequency.TabIndex = 43;
-            // 
-            // b2roll2frequency
-            // 
-            b2roll2frequency.AutoSize = true;
-            b2roll2frequency.Location = new Point(119, 315);
-            b2roll2frequency.Name = "b2roll2frequency";
-            b2roll2frequency.Size = new Size(0, 15);
-            b2roll2frequency.TabIndex = 44;
-            // 
-            // b2roll3frequency
-            // 
-            b2roll3frequency.AutoSize = true;
-            b2roll3frequency.Location = new Point(119, 330);
-            b2roll3frequency.Name = "b2roll3frequency";
-            b2roll3frequency.Size = new Size(0, 15);
-            b2roll3frequency.TabIndex = 45;
-            // 
-            // b2roll4frequency
-            // 
-            b2roll4frequency.AutoSize = true;
-            b2roll4frequency.Location = new Point(119, 345);
-            b2roll4frequency.Name = "b2roll4frequency";
-            b2roll4frequency.Size = new Size(0, 15);
-            b2roll4frequency.TabIndex = 46;
-            // 
-            // b2roll5frequency
-            // 
-            b2roll5frequency.AutoSize = true;
-            b2roll5frequency.Location = new Point(119, 360);
-            b2roll5frequency.Name = "b2roll5frequency";
-            b2roll5frequency.Size = new Size(0, 15);
-            b2roll5frequency.TabIndex = 47;
-            // 
-            // b2roll6frequency
-            // 
-            b2roll6frequency.AutoSize = true;
-            b2roll6frequency.Location = new Point(119, 375);
-            b2roll6frequency.Name = "b2roll6frequency";
-            b2roll6frequency.Size = new Size(0, 15);
-            b2roll6frequency.TabIndex = 48;
+            label13.AutoSize = true;
+            label13.Location = new Point(6, 17);
+            label13.Name = "label13";
+            label13.Size = new Size(94, 15);
+            label13.TabIndex = 0;
+            label13.Text = "P Dice 1 Rolls (1)";
             // 
             // Home
             // 
@@ -1161,9 +1184,6 @@
         private Label label15;
         private Label label14;
         private Label label13;
-        private Label proll1frequency;
-        private Label proll3frequency;
-        private Label proll2frequency;
         private Button button27;
         private Label label25;
         private Label label24;
@@ -1172,7 +1192,6 @@
         private Label label21;
         private Label label20;
         private Label label19;
-        private Label proll4frequency;
         private Label label36;
         private Label label35;
         private Label label34;
@@ -1185,24 +1204,28 @@
         private Label label27;
         private Label label26;
         private Label b2roll6frequency;
+        private Label proll1frequency;
         private Label b2roll5frequency;
+        private Label proll2frequency;
         private Label b2roll4frequency;
+        private Label proll3frequency;
         private Label b2roll3frequency;
+        private Label proll4frequency;
         private Label b2roll2frequency;
+        private Label proll5frequency;
         private Label b2roll1frequency;
+        private Label proll6frequency;
         private Label broll6frequency;
+        private Label p2roll1frequency;
         private Label broll5frequency;
-        private Label label49;
+        private Label p2roll2frequency;
+        private Label broll4frequency;
+        private Label p2roll3frequency;
         private Label broll3frequency;
+        private Label p2roll4frequency;
         private Label broll2frequency;
+        private Label p2roll5frequency;
         private Label broll1frequency;
         private Label p2roll6frequency;
-        private Label p2roll5frequency;
-        private Label p2roll4frequency;
-        private Label p2roll3frequency;
-        private Label p2roll2frequency;
-        private Label p2roll1frequency;
-        private Label proll6frequency;
-        private Label proll5frequency;
     }
 }
