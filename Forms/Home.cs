@@ -450,7 +450,7 @@ public partial class Home : Form
 
     private void btn18_Click(object sender, EventArgs e)
     {
-        SaveNumber(18, "Black");
+        SaveNumber(18, "Red");
     }
 
     private void btn19_Click(object sender, EventArgs e)
