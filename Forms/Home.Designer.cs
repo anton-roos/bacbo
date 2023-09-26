@@ -167,6 +167,7 @@
             btn3 = new Button();
             btn2 = new Button();
             btn1 = new Button();
+            label38 = new Label();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
@@ -1162,6 +1163,7 @@
             // 
             // tabPage4
             // 
+            tabPage4.Controls.Add(label38);
             tabPage4.Controls.Add(listBox2);
             tabPage4.Controls.Add(button28);
             tabPage4.Controls.Add(label37);
@@ -1206,7 +1208,7 @@
             // 
             textBox1.Location = new Point(6, 21);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(144, 23);
             textBox1.TabIndex = 0;
             // 
             // tabPage5
@@ -1749,6 +1751,16 @@
             btn1.UseVisualStyleBackColor = false;
             btn1.Click += btn1_Click;
             // 
+            // label38
+            // 
+            label38.AutoSize = true;
+            label38.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label38.Location = new Point(225, 3);
+            label38.Name = "label38";
+            label38.Size = new Size(270, 32);
+            label38.TabIndex = 4;
+            label38.Text = "Martingale Simulation";
+            // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -1911,5 +1923,6 @@
         private Button btn32;
         private Button btn31;
         private ListBox listBox3;
+        private Label label38;
     }
 }

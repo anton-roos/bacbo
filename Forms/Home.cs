@@ -341,9 +341,9 @@ public partial class Home : Form
     {
         listBox3.Items.Clear();
         var items = _rouletteService.GetRouletteResults();
-        
+
         items.Reverse();
-        
+
         foreach (var item in items)
         {
             listBox3.Items.Add($"{item.DrawNumber} \t {item.Color}");
