@@ -547,4 +547,9 @@ public partial class Home : Form
     {
         SaveNumber(0, "Green");
     }
+
+    private void tabPage6_Click(object sender, EventArgs e)
+    {
+
+    }
 }

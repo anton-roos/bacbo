@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             button1 = new Button();
             button2 = new Button();
@@ -124,6 +125,7 @@
             label14 = new Label();
             label13 = new Label();
             tabPage4 = new TabPage();
+            label38 = new Label();
             listBox2 = new ListBox();
             button28 = new Button();
             label37 = new Label();
@@ -167,13 +169,18 @@
             btn3 = new Button();
             btn2 = new Button();
             btn1 = new Button();
-            label38 = new Label();
+            tabPage6 = new TabPage();
+            chartController1 = new Steema.TeeChart.ChartController();
+            toolStripButton1 = new ToolStripButton();
+            toolStripLabel1 = new ToolStripLabel();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
             tabPage3.SuspendLayout();
             tabPage4.SuspendLayout();
             tabPage5.SuspendLayout();
+            tabPage6.SuspendLayout();
+            chartController1.SuspendLayout();
             SuspendLayout();
             // 
             // button1
@@ -558,6 +565,7 @@
             tabControl1.Controls.Add(tabPage3);
             tabControl1.Controls.Add(tabPage4);
             tabControl1.Controls.Add(tabPage5);
+            tabControl1.Controls.Add(tabPage6);
             tabControl1.Location = new Point(12, 12);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
@@ -1176,6 +1184,16 @@
             tabPage4.Text = "Simulation";
             tabPage4.UseVisualStyleBackColor = true;
             // 
+            // label38
+            // 
+            label38.AutoSize = true;
+            label38.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label38.Location = new Point(225, 3);
+            label38.Name = "label38";
+            label38.Size = new Size(270, 32);
+            label38.TabIndex = 4;
+            label38.Text = "Martingale Simulation";
+            // 
             // listBox2
             // 
             listBox2.FormattingEnabled = true;
@@ -1751,15 +1769,42 @@
             btn1.UseVisualStyleBackColor = false;
             btn1.Click += btn1_Click;
             // 
-            // label38
+            // tabPage6
             // 
-            label38.AutoSize = true;
-            label38.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label38.Location = new Point(225, 3);
-            label38.Name = "label38";
-            label38.Size = new Size(270, 32);
-            label38.TabIndex = 4;
-            label38.Text = "Martingale Simulation";
+            tabPage6.Controls.Add(chartController1);
+            tabPage6.Location = new Point(4, 24);
+            tabPage6.Name = "tabPage6";
+            tabPage6.Padding = new Padding(3);
+            tabPage6.Size = new Size(501, 442);
+            tabPage6.TabIndex = 5;
+            tabPage6.Text = "Roulette Stats";
+            tabPage6.UseVisualStyleBackColor = true;
+            tabPage6.Click += tabPage6_Click;
+            // 
+            // chartController1
+            // 
+            chartController1.ButtonSize = Steema.TeeChart.ControllerButtonSize.x16;
+            chartController1.LabelValues = true;
+            chartController1.Location = new Point(3, 3);
+            chartController1.Name = "chartController1";
+            chartController1.Size = new Size(495, 25);
+            chartController1.TabIndex = 0;
+            chartController1.Text = "chartController1";
+            // 
+            // toolStripButton1
+            // 
+            toolStripButton1.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            toolStripButton1.Image = (Image)resources.GetObject("toolStripButton1.Image");
+            toolStripButton1.ImageTransparentColor = Color.Magenta;
+            toolStripButton1.Name = "toolStripButton1";
+            toolStripButton1.Size = new Size(23, 22);
+            toolStripButton1.Text = "toolStripButton1";
+            // 
+            // toolStripLabel1
+            // 
+            toolStripLabel1.Name = "toolStripLabel1";
+            toolStripLabel1.Size = new Size(86, 22);
+            toolStripLabel1.Text = "toolStripLabel1";
             // 
             // Home
             // 
@@ -1780,6 +1825,10 @@
             tabPage4.ResumeLayout(false);
             tabPage4.PerformLayout();
             tabPage5.ResumeLayout(false);
+            tabPage6.ResumeLayout(false);
+            tabPage6.PerformLayout();
+            chartController1.ResumeLayout(false);
+            chartController1.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -1924,5 +1973,9 @@
         private Button btn31;
         private ListBox listBox3;
         private Label label38;
+        private TabPage tabPage6;
+        private Steema.TeeChart.ChartController chartController1;
+        private ToolStripButton toolStripButton1;
+        private ToolStripLabel toolStripLabel1;
     }
 }
