@@ -123,10 +123,56 @@
             label15 = new Label();
             label14 = new Label();
             label13 = new Label();
+            tabPage4 = new TabPage();
+            listBox2 = new ListBox();
+            button28 = new Button();
+            label37 = new Label();
+            textBox1 = new TextBox();
+            tabPage5 = new TabPage();
+            listBox3 = new ListBox();
+            btn0 = new Button();
+            btn36 = new Button();
+            btn35 = new Button();
+            btn34 = new Button();
+            btn33 = new Button();
+            btn32 = new Button();
+            btn31 = new Button();
+            btn30 = new Button();
+            btn29 = new Button();
+            btn28 = new Button();
+            btn27 = new Button();
+            btn26 = new Button();
+            btn25 = new Button();
+            btn24 = new Button();
+            btn23 = new Button();
+            btn22 = new Button();
+            btn21 = new Button();
+            btn20 = new Button();
+            btn19 = new Button();
+            btn18 = new Button();
+            btn17 = new Button();
+            btn16 = new Button();
+            btn15 = new Button();
+            btn14 = new Button();
+            btn13 = new Button();
+            btn12 = new Button();
+            btn11 = new Button();
+            btn10 = new Button();
+            btn9 = new Button();
+            btn8 = new Button();
+            btn7 = new Button();
+            btn6 = new Button();
+            btn5 = new Button();
+            btn4 = new Button();
+            btn3 = new Button();
+            btn2 = new Button();
+            btn1 = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
             tabPage3.SuspendLayout();
+            tabPage4.SuspendLayout();
+            tabPage5.SuspendLayout();
             SuspendLayout();
             // 
             // button1
@@ -509,6 +555,8 @@
             tabControl1.Controls.Add(tabPage1);
             tabControl1.Controls.Add(tabPage2);
             tabControl1.Controls.Add(tabPage3);
+            tabControl1.Controls.Add(tabPage4);
+            tabControl1.Controls.Add(tabPage5);
             tabControl1.Location = new Point(12, 12);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
@@ -1112,6 +1160,595 @@
             label13.TabIndex = 0;
             label13.Text = "P Dice 1 Rolls (1)";
             // 
+            // tabPage4
+            // 
+            tabPage4.Controls.Add(listBox2);
+            tabPage4.Controls.Add(button28);
+            tabPage4.Controls.Add(label37);
+            tabPage4.Controls.Add(textBox1);
+            tabPage4.Location = new Point(4, 24);
+            tabPage4.Name = "tabPage4";
+            tabPage4.Padding = new Padding(3);
+            tabPage4.Size = new Size(501, 442);
+            tabPage4.TabIndex = 3;
+            tabPage4.Text = "Simulation";
+            tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // listBox2
+            // 
+            listBox2.FormattingEnabled = true;
+            listBox2.ItemHeight = 15;
+            listBox2.Location = new Point(7, 91);
+            listBox2.Name = "listBox2";
+            listBox2.Size = new Size(484, 334);
+            listBox2.TabIndex = 3;
+            // 
+            // button28
+            // 
+            button28.Location = new Point(6, 50);
+            button28.Name = "button28";
+            button28.Size = new Size(75, 23);
+            button28.TabIndex = 2;
+            button28.Text = "Simulate";
+            button28.UseVisualStyleBackColor = true;
+            button28.Click += button28_Click;
+            // 
+            // label37
+            // 
+            label37.AutoSize = true;
+            label37.Location = new Point(6, 3);
+            label37.Name = "label37";
+            label37.Size = new Size(82, 15);
+            label37.TabIndex = 1;
+            label37.Text = "Initial Bankroll";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(6, 21);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(100, 23);
+            textBox1.TabIndex = 0;
+            // 
+            // tabPage5
+            // 
+            tabPage5.Controls.Add(listBox3);
+            tabPage5.Controls.Add(btn0);
+            tabPage5.Controls.Add(btn36);
+            tabPage5.Controls.Add(btn35);
+            tabPage5.Controls.Add(btn34);
+            tabPage5.Controls.Add(btn33);
+            tabPage5.Controls.Add(btn32);
+            tabPage5.Controls.Add(btn31);
+            tabPage5.Controls.Add(btn30);
+            tabPage5.Controls.Add(btn29);
+            tabPage5.Controls.Add(btn28);
+            tabPage5.Controls.Add(btn27);
+            tabPage5.Controls.Add(btn26);
+            tabPage5.Controls.Add(btn25);
+            tabPage5.Controls.Add(btn24);
+            tabPage5.Controls.Add(btn23);
+            tabPage5.Controls.Add(btn22);
+            tabPage5.Controls.Add(btn21);
+            tabPage5.Controls.Add(btn20);
+            tabPage5.Controls.Add(btn19);
+            tabPage5.Controls.Add(btn18);
+            tabPage5.Controls.Add(btn17);
+            tabPage5.Controls.Add(btn16);
+            tabPage5.Controls.Add(btn15);
+            tabPage5.Controls.Add(btn14);
+            tabPage5.Controls.Add(btn13);
+            tabPage5.Controls.Add(btn12);
+            tabPage5.Controls.Add(btn11);
+            tabPage5.Controls.Add(btn10);
+            tabPage5.Controls.Add(btn9);
+            tabPage5.Controls.Add(btn8);
+            tabPage5.Controls.Add(btn7);
+            tabPage5.Controls.Add(btn6);
+            tabPage5.Controls.Add(btn5);
+            tabPage5.Controls.Add(btn4);
+            tabPage5.Controls.Add(btn3);
+            tabPage5.Controls.Add(btn2);
+            tabPage5.Controls.Add(btn1);
+            tabPage5.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            tabPage5.Location = new Point(4, 24);
+            tabPage5.Name = "tabPage5";
+            tabPage5.Padding = new Padding(3);
+            tabPage5.Size = new Size(501, 442);
+            tabPage5.TabIndex = 4;
+            tabPage5.Text = "Roulette Capture";
+            tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // listBox3
+            // 
+            listBox3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            listBox3.FormattingEnabled = true;
+            listBox3.ItemHeight = 15;
+            listBox3.Location = new Point(342, 6);
+            listBox3.Name = "listBox3";
+            listBox3.Size = new Size(153, 349);
+            listBox3.TabIndex = 38;
+            // 
+            // btn0
+            // 
+            btn0.BackColor = Color.ForestGreen;
+            btn0.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn0.ForeColor = Color.White;
+            btn0.Location = new Point(118, 342);
+            btn0.Name = "btn0";
+            btn0.Size = new Size(106, 50);
+            btn0.TabIndex = 37;
+            btn0.Text = "0";
+            btn0.UseVisualStyleBackColor = false;
+            btn0.Click += btn0_Click;
+            // 
+            // btn36
+            // 
+            btn36.BackColor = Color.Red;
+            btn36.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn36.ForeColor = Color.White;
+            btn36.Location = new Point(286, 286);
+            btn36.Name = "btn36";
+            btn36.Size = new Size(50, 50);
+            btn36.TabIndex = 36;
+            btn36.Text = "36";
+            btn36.UseVisualStyleBackColor = false;
+            btn36.Click += btn36_Click;
+            // 
+            // btn35
+            // 
+            btn35.BackColor = Color.Black;
+            btn35.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn35.ForeColor = Color.White;
+            btn35.Location = new Point(230, 286);
+            btn35.Name = "btn35";
+            btn35.Size = new Size(50, 50);
+            btn35.TabIndex = 35;
+            btn35.Text = "35";
+            btn35.UseVisualStyleBackColor = false;
+            btn35.Click += btn35_Click;
+            // 
+            // btn34
+            // 
+            btn34.BackColor = Color.Red;
+            btn34.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn34.ForeColor = Color.White;
+            btn34.Location = new Point(174, 286);
+            btn34.Name = "btn34";
+            btn34.Size = new Size(50, 50);
+            btn34.TabIndex = 34;
+            btn34.Text = "34";
+            btn34.UseVisualStyleBackColor = false;
+            btn34.Click += btn34_Click;
+            // 
+            // btn33
+            // 
+            btn33.BackColor = Color.Black;
+            btn33.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn33.ForeColor = Color.White;
+            btn33.Location = new Point(118, 286);
+            btn33.Name = "btn33";
+            btn33.Size = new Size(50, 50);
+            btn33.TabIndex = 33;
+            btn33.Text = "33";
+            btn33.UseVisualStyleBackColor = false;
+            btn33.Click += btn33_Click;
+            // 
+            // btn32
+            // 
+            btn32.BackColor = Color.Red;
+            btn32.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn32.ForeColor = Color.White;
+            btn32.Location = new Point(62, 286);
+            btn32.Name = "btn32";
+            btn32.Size = new Size(50, 50);
+            btn32.TabIndex = 32;
+            btn32.Text = "32";
+            btn32.UseVisualStyleBackColor = false;
+            btn32.Click += btn32_Click;
+            // 
+            // btn31
+            // 
+            btn31.BackColor = Color.Black;
+            btn31.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn31.ForeColor = Color.White;
+            btn31.Location = new Point(6, 286);
+            btn31.Name = "btn31";
+            btn31.Size = new Size(50, 50);
+            btn31.TabIndex = 31;
+            btn31.Text = "31";
+            btn31.UseVisualStyleBackColor = false;
+            btn31.Click += btn31_Click;
+            // 
+            // btn30
+            // 
+            btn30.BackColor = Color.Red;
+            btn30.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn30.ForeColor = Color.White;
+            btn30.Location = new Point(286, 230);
+            btn30.Name = "btn30";
+            btn30.Size = new Size(50, 50);
+            btn30.TabIndex = 30;
+            btn30.Text = "30";
+            btn30.UseVisualStyleBackColor = false;
+            btn30.Click += btn30_Click;
+            // 
+            // btn29
+            // 
+            btn29.BackColor = Color.Black;
+            btn29.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn29.ForeColor = Color.White;
+            btn29.Location = new Point(230, 230);
+            btn29.Name = "btn29";
+            btn29.Size = new Size(50, 50);
+            btn29.TabIndex = 29;
+            btn29.Text = "29";
+            btn29.UseVisualStyleBackColor = false;
+            btn29.Click += btn29_Click;
+            // 
+            // btn28
+            // 
+            btn28.BackColor = Color.Black;
+            btn28.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn28.ForeColor = Color.White;
+            btn28.Location = new Point(174, 230);
+            btn28.Name = "btn28";
+            btn28.Size = new Size(50, 50);
+            btn28.TabIndex = 28;
+            btn28.Text = "28";
+            btn28.UseVisualStyleBackColor = false;
+            btn28.Click += btn28_Click;
+            // 
+            // btn27
+            // 
+            btn27.BackColor = Color.Red;
+            btn27.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn27.ForeColor = Color.White;
+            btn27.Location = new Point(118, 230);
+            btn27.Name = "btn27";
+            btn27.Size = new Size(50, 50);
+            btn27.TabIndex = 27;
+            btn27.Text = "27";
+            btn27.UseVisualStyleBackColor = false;
+            btn27.Click += btn27_Click;
+            // 
+            // btn26
+            // 
+            btn26.BackColor = Color.Black;
+            btn26.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn26.ForeColor = Color.White;
+            btn26.Location = new Point(62, 230);
+            btn26.Name = "btn26";
+            btn26.Size = new Size(50, 50);
+            btn26.TabIndex = 26;
+            btn26.Text = "26";
+            btn26.UseVisualStyleBackColor = false;
+            btn26.Click += btn26_Click;
+            // 
+            // btn25
+            // 
+            btn25.BackColor = Color.Red;
+            btn25.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn25.ForeColor = Color.White;
+            btn25.Location = new Point(6, 230);
+            btn25.Name = "btn25";
+            btn25.Size = new Size(50, 50);
+            btn25.TabIndex = 25;
+            btn25.Text = "25";
+            btn25.UseVisualStyleBackColor = false;
+            btn25.Click += btn25_Click;
+            // 
+            // btn24
+            // 
+            btn24.BackColor = Color.Black;
+            btn24.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn24.ForeColor = Color.White;
+            btn24.Location = new Point(286, 174);
+            btn24.Name = "btn24";
+            btn24.Size = new Size(50, 50);
+            btn24.TabIndex = 24;
+            btn24.Text = "24";
+            btn24.UseVisualStyleBackColor = false;
+            btn24.Click += btn24_Click;
+            // 
+            // btn23
+            // 
+            btn23.BackColor = Color.Red;
+            btn23.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn23.ForeColor = Color.White;
+            btn23.Location = new Point(230, 174);
+            btn23.Name = "btn23";
+            btn23.Size = new Size(50, 50);
+            btn23.TabIndex = 23;
+            btn23.Text = "23";
+            btn23.UseVisualStyleBackColor = false;
+            btn23.Click += btn23_Click;
+            // 
+            // btn22
+            // 
+            btn22.BackColor = Color.Black;
+            btn22.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn22.ForeColor = Color.White;
+            btn22.Location = new Point(174, 174);
+            btn22.Name = "btn22";
+            btn22.Size = new Size(50, 50);
+            btn22.TabIndex = 22;
+            btn22.Text = "22";
+            btn22.UseVisualStyleBackColor = false;
+            btn22.Click += btn22_Click;
+            // 
+            // btn21
+            // 
+            btn21.BackColor = Color.Red;
+            btn21.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn21.ForeColor = Color.White;
+            btn21.Location = new Point(118, 174);
+            btn21.Name = "btn21";
+            btn21.Size = new Size(50, 50);
+            btn21.TabIndex = 21;
+            btn21.Text = "21";
+            btn21.UseVisualStyleBackColor = false;
+            btn21.Click += btn21_Click;
+            // 
+            // btn20
+            // 
+            btn20.BackColor = Color.Black;
+            btn20.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn20.ForeColor = Color.White;
+            btn20.Location = new Point(62, 174);
+            btn20.Name = "btn20";
+            btn20.Size = new Size(50, 50);
+            btn20.TabIndex = 20;
+            btn20.Text = "20";
+            btn20.UseVisualStyleBackColor = false;
+            btn20.Click += btn20_Click;
+            // 
+            // btn19
+            // 
+            btn19.BackColor = Color.Red;
+            btn19.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn19.ForeColor = Color.White;
+            btn19.Location = new Point(6, 174);
+            btn19.Name = "btn19";
+            btn19.Size = new Size(50, 50);
+            btn19.TabIndex = 19;
+            btn19.Text = "19";
+            btn19.UseVisualStyleBackColor = false;
+            btn19.Click += btn19_Click;
+            // 
+            // btn18
+            // 
+            btn18.BackColor = Color.Red;
+            btn18.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn18.ForeColor = Color.White;
+            btn18.Location = new Point(286, 118);
+            btn18.Name = "btn18";
+            btn18.Size = new Size(50, 50);
+            btn18.TabIndex = 18;
+            btn18.Text = "18";
+            btn18.UseVisualStyleBackColor = false;
+            btn18.Click += btn18_Click;
+            // 
+            // btn17
+            // 
+            btn17.BackColor = Color.Black;
+            btn17.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn17.ForeColor = Color.White;
+            btn17.Location = new Point(230, 118);
+            btn17.Name = "btn17";
+            btn17.Size = new Size(50, 50);
+            btn17.TabIndex = 17;
+            btn17.Text = "17";
+            btn17.UseVisualStyleBackColor = false;
+            btn17.Click += btn17_Click;
+            // 
+            // btn16
+            // 
+            btn16.BackColor = Color.Red;
+            btn16.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn16.ForeColor = Color.White;
+            btn16.Location = new Point(174, 118);
+            btn16.Name = "btn16";
+            btn16.Size = new Size(50, 50);
+            btn16.TabIndex = 16;
+            btn16.Text = "16";
+            btn16.UseVisualStyleBackColor = false;
+            btn16.Click += btn16_Click;
+            // 
+            // btn15
+            // 
+            btn15.BackColor = Color.Black;
+            btn15.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn15.ForeColor = Color.White;
+            btn15.Location = new Point(118, 118);
+            btn15.Name = "btn15";
+            btn15.Size = new Size(50, 50);
+            btn15.TabIndex = 15;
+            btn15.Text = "15";
+            btn15.UseVisualStyleBackColor = false;
+            btn15.Click += btn15_Click;
+            // 
+            // btn14
+            // 
+            btn14.BackColor = Color.Red;
+            btn14.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn14.ForeColor = Color.White;
+            btn14.Location = new Point(62, 118);
+            btn14.Name = "btn14";
+            btn14.Size = new Size(50, 50);
+            btn14.TabIndex = 14;
+            btn14.Text = "14";
+            btn14.UseVisualStyleBackColor = false;
+            btn14.Click += btn14_Click;
+            // 
+            // btn13
+            // 
+            btn13.BackColor = Color.Black;
+            btn13.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn13.ForeColor = Color.White;
+            btn13.Location = new Point(6, 118);
+            btn13.Name = "btn13";
+            btn13.Size = new Size(50, 50);
+            btn13.TabIndex = 13;
+            btn13.Text = "13";
+            btn13.UseVisualStyleBackColor = false;
+            btn13.Click += btn13_Click;
+            // 
+            // btn12
+            // 
+            btn12.BackColor = Color.Red;
+            btn12.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn12.ForeColor = Color.White;
+            btn12.Location = new Point(286, 62);
+            btn12.Name = "btn12";
+            btn12.Size = new Size(50, 50);
+            btn12.TabIndex = 12;
+            btn12.Text = "12";
+            btn12.UseVisualStyleBackColor = false;
+            btn12.Click += btn12_Click;
+            // 
+            // btn11
+            // 
+            btn11.BackColor = Color.Black;
+            btn11.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn11.ForeColor = Color.White;
+            btn11.Location = new Point(230, 62);
+            btn11.Name = "btn11";
+            btn11.Size = new Size(50, 50);
+            btn11.TabIndex = 11;
+            btn11.Text = "11";
+            btn11.UseVisualStyleBackColor = false;
+            btn11.Click += btn11_Click;
+            // 
+            // btn10
+            // 
+            btn10.BackColor = Color.Black;
+            btn10.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn10.ForeColor = Color.White;
+            btn10.Location = new Point(174, 62);
+            btn10.Name = "btn10";
+            btn10.Size = new Size(50, 50);
+            btn10.TabIndex = 10;
+            btn10.Text = "10";
+            btn10.UseVisualStyleBackColor = false;
+            btn10.Click += btn10_Click;
+            // 
+            // btn9
+            // 
+            btn9.BackColor = Color.Red;
+            btn9.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn9.ForeColor = Color.White;
+            btn9.Location = new Point(118, 62);
+            btn9.Name = "btn9";
+            btn9.Size = new Size(50, 50);
+            btn9.TabIndex = 9;
+            btn9.Text = "9";
+            btn9.UseVisualStyleBackColor = false;
+            btn9.Click += btn9_Click;
+            // 
+            // btn8
+            // 
+            btn8.BackColor = Color.Black;
+            btn8.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn8.ForeColor = Color.White;
+            btn8.Location = new Point(62, 62);
+            btn8.Name = "btn8";
+            btn8.Size = new Size(50, 50);
+            btn8.TabIndex = 8;
+            btn8.Text = "8";
+            btn8.UseVisualStyleBackColor = false;
+            btn8.Click += btn8_Click;
+            // 
+            // btn7
+            // 
+            btn7.BackColor = Color.Red;
+            btn7.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn7.ForeColor = Color.White;
+            btn7.Location = new Point(6, 62);
+            btn7.Name = "btn7";
+            btn7.Size = new Size(50, 50);
+            btn7.TabIndex = 7;
+            btn7.Text = "7";
+            btn7.UseVisualStyleBackColor = false;
+            btn7.Click += btn7_Click;
+            // 
+            // btn6
+            // 
+            btn6.BackColor = Color.Black;
+            btn6.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn6.ForeColor = Color.White;
+            btn6.Location = new Point(286, 6);
+            btn6.Name = "btn6";
+            btn6.Size = new Size(50, 50);
+            btn6.TabIndex = 6;
+            btn6.Text = "6";
+            btn6.UseVisualStyleBackColor = false;
+            btn6.Click += btn6_Click;
+            // 
+            // btn5
+            // 
+            btn5.BackColor = Color.Red;
+            btn5.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn5.ForeColor = Color.White;
+            btn5.Location = new Point(230, 6);
+            btn5.Name = "btn5";
+            btn5.Size = new Size(50, 50);
+            btn5.TabIndex = 5;
+            btn5.Text = "5";
+            btn5.UseVisualStyleBackColor = false;
+            btn5.Click += btn5_Click;
+            // 
+            // btn4
+            // 
+            btn4.BackColor = Color.Black;
+            btn4.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn4.ForeColor = Color.White;
+            btn4.Location = new Point(174, 6);
+            btn4.Name = "btn4";
+            btn4.Size = new Size(50, 50);
+            btn4.TabIndex = 4;
+            btn4.Text = "4";
+            btn4.UseVisualStyleBackColor = false;
+            btn4.Click += btn4_Click;
+            // 
+            // btn3
+            // 
+            btn3.BackColor = Color.Red;
+            btn3.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn3.ForeColor = Color.White;
+            btn3.Location = new Point(118, 6);
+            btn3.Name = "btn3";
+            btn3.Size = new Size(50, 50);
+            btn3.TabIndex = 3;
+            btn3.Text = "3";
+            btn3.UseVisualStyleBackColor = false;
+            btn3.Click += btn3_Click;
+            // 
+            // btn2
+            // 
+            btn2.BackColor = Color.Black;
+            btn2.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn2.ForeColor = Color.White;
+            btn2.Location = new Point(62, 6);
+            btn2.Name = "btn2";
+            btn2.Size = new Size(50, 50);
+            btn2.TabIndex = 2;
+            btn2.Text = "2";
+            btn2.UseVisualStyleBackColor = false;
+            btn2.Click += btn2_Click;
+            // 
+            // btn1
+            // 
+            btn1.BackColor = Color.Red;
+            btn1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn1.ForeColor = Color.White;
+            btn1.Location = new Point(6, 6);
+            btn1.Name = "btn1";
+            btn1.Size = new Size(50, 50);
+            btn1.TabIndex = 1;
+            btn1.Text = "1";
+            btn1.UseVisualStyleBackColor = false;
+            btn1.Click += btn1_Click;
+            // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -1128,6 +1765,9 @@
             tabPage2.ResumeLayout(false);
             tabPage3.ResumeLayout(false);
             tabPage3.PerformLayout();
+            tabPage4.ResumeLayout(false);
+            tabPage4.PerformLayout();
+            tabPage5.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -1227,5 +1867,49 @@
         private Label p2roll5frequency;
         private Label broll1frequency;
         private Label p2roll6frequency;
+        private TabPage tabPage4;
+        private Button button28;
+        private Label label37;
+        private TextBox textBox1;
+        private ListBox listBox2;
+        private TabPage tabPage5;
+        private Button btn30;
+        private Button btn29;
+        private Button btn28;
+        private Button btn27;
+        private Button btn26;
+        private Button btn25;
+        private Button btn24;
+        private Button btn23;
+        private Button btn22;
+        private Button btn21;
+        private Button btn20;
+        private Button btn19;
+        private Button btn18;
+        private Button btn17;
+        private Button btn16;
+        private Button btn15;
+        private Button btn14;
+        private Button btn13;
+        private Button btn12;
+        private Button btn11;
+        private Button btn10;
+        private Button btn9;
+        private Button btn8;
+        private Button btn7;
+        private Button btn6;
+        private Button btn5;
+        private Button btn4;
+        private Button btn3;
+        private Button btn2;
+        private Button btn1;
+        private Button btn0;
+        private Button btn36;
+        private Button btn35;
+        private Button btn34;
+        private Button btn33;
+        private Button btn32;
+        private Button btn31;
+        private ListBox listBox3;
     }
 }

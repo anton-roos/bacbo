@@ -7,12 +7,16 @@ public partial class Home : Form
 {
     private BacBoResult _bacBoResult;
     private readonly IBacBoService _bacBoService;
+    private readonly ISimulationService _simulationService;
+    private readonly IRouletteService _rouletteService;
 
-    public Home(IBacBoService bacBoService)
+    public Home(IBacBoService bacBoService, ISimulationService simulationService, IRouletteService rouletteService)
     {
         InitializeComponent();
         _bacBoResult = new BacBoResult();
         _bacBoService = bacBoService;
+        _simulationService = simulationService;
+        _rouletteService = rouletteService;
     }
 
     private void Form1_Load(object sender, EventArgs e)
@@ -321,5 +325,226 @@ public partial class Home : Form
         b2roll4frequency.Text = BankerRollTwoFourCount;
         b2roll5frequency.Text = BankerRollTwoFiveCount;
         b2roll6frequency.Text = BankerRollTwoSixCount;
+    }
+
+    private void button28_Click(object sender, EventArgs e)
+    {
+        var list = _simulationService.Simulate(Convert.ToDouble(textBox1.Text));
+
+        foreach (var item in list)
+        {
+            listBox2.Items.Add($"{item.Id} {item.Balance}");
+        }
+    }
+
+    public void RefreshListBoxItems()
+    {
+        listBox3.Items.Clear();
+        var items = _rouletteService.GetRouletteResults();
+        
+        items.Reverse();
+        
+        foreach (var item in items)
+        {
+            listBox3.Items.Add($"{item.DrawNumber} \t {item.Color}");
+        }
+    }
+
+    public void SaveNumber(int number, string color)
+    {
+        var rouletteResult = new RouletteResult
+        {
+            Color = color,
+            DrawDate = DateTime.Now,
+            DrawNumber = number,
+            Source = "Betway Evolution Speed Auto Roulette",
+        };
+        _rouletteService.SaveRouletteResult(rouletteResult);
+        RefreshListBoxItems();
+    }
+
+    private void btn1_Click(object sender, EventArgs e)
+    {
+        SaveNumber(1, "Red");
+    }
+
+    private void btn2_Click(object sender, EventArgs e)
+    {
+        SaveNumber(2, "Black");
+    }
+
+    private void btn3_Click(object sender, EventArgs e)
+    {
+        SaveNumber(3, "Red");
+    }
+
+    private void btn4_Click(object sender, EventArgs e)
+    {
+        SaveNumber(4, "Black");
+    }
+
+    private void btn5_Click(object sender, EventArgs e)
+    {
+        SaveNumber(5, "Red");
+    }
+
+    private void btn6_Click(object sender, EventArgs e)
+    {
+        SaveNumber(6, "Black");
+    }
+
+    private void btn7_Click(object sender, EventArgs e)
+    {
+        SaveNumber(7, "Red");
+    }
+
+    private void btn8_Click(object sender, EventArgs e)
+    {
+        SaveNumber(8, "Black");
+    }
+
+    private void btn9_Click(object sender, EventArgs e)
+    {
+        SaveNumber(9, "Red");
+    }
+
+    private void btn10_Click(object sender, EventArgs e)
+    {
+        SaveNumber(10, "Black");
+    }
+
+    private void btn11_Click(object sender, EventArgs e)
+    {
+        SaveNumber(11, "Black");
+    }
+
+    private void btn12_Click(object sender, EventArgs e)
+    {
+        SaveNumber(12, "Red");
+    }
+
+    private void btn13_Click(object sender, EventArgs e)
+    {
+        SaveNumber(13, "Black");
+    }
+
+    private void btn14_Click(object sender, EventArgs e)
+    {
+        SaveNumber(14, "Red");
+    }
+
+    private void btn15_Click(object sender, EventArgs e)
+    {
+        SaveNumber(15, "Black");
+    }
+
+    private void btn16_Click(object sender, EventArgs e)
+    {
+        SaveNumber(16, "Red");
+    }
+
+    private void btn17_Click(object sender, EventArgs e)
+    {
+        SaveNumber(17, "Black");
+    }
+
+    private void btn18_Click(object sender, EventArgs e)
+    {
+        SaveNumber(18, "Black");
+    }
+
+    private void btn19_Click(object sender, EventArgs e)
+    {
+        SaveNumber(19, "Red");
+    }
+
+    private void btn20_Click(object sender, EventArgs e)
+    {
+        SaveNumber(20, "Black");
+    }
+
+    private void btn21_Click(object sender, EventArgs e)
+    {
+        SaveNumber(21, "Red");
+    }
+
+    private void btn22_Click(object sender, EventArgs e)
+    {
+        SaveNumber(22, "Black");
+    }
+
+    private void btn23_Click(object sender, EventArgs e)
+    {
+        SaveNumber(23, "Red");
+    }
+
+    private void btn24_Click(object sender, EventArgs e)
+    {
+        SaveNumber(24, "Black");
+    }
+
+    private void btn25_Click(object sender, EventArgs e)
+    {
+        SaveNumber(25, "Red");
+    }
+
+    private void btn26_Click(object sender, EventArgs e)
+    {
+        SaveNumber(26, "Black");
+    }
+
+    private void btn27_Click(object sender, EventArgs e)
+    {
+        SaveNumber(27, "Red");
+    }
+
+    private void btn28_Click(object sender, EventArgs e)
+    {
+        SaveNumber(28, "Black");
+    }
+
+    private void btn29_Click(object sender, EventArgs e)
+    {
+        SaveNumber(29, "Black");
+    }
+
+    private void btn30_Click(object sender, EventArgs e)
+    {
+        SaveNumber(30, "Red");
+    }
+
+    private void btn31_Click(object sender, EventArgs e)
+    {
+        SaveNumber(31, "Black");
+    }
+
+    private void btn32_Click(object sender, EventArgs e)
+    {
+        SaveNumber(32, "Red");
+    }
+
+    private void btn33_Click(object sender, EventArgs e)
+    {
+        SaveNumber(33, "Black");
+    }
+
+    private void btn34_Click(object sender, EventArgs e)
+    {
+        SaveNumber(34, "Red");
+    }
+
+    private void btn35_Click(object sender, EventArgs e)
+    {
+        SaveNumber(35, "Black");
+    }
+
+    private void btn36_Click(object sender, EventArgs e)
+    {
+        SaveNumber(36, "Red");
+    }
+
+    private void btn0_Click(object sender, EventArgs e)
+    {
+        SaveNumber(0, "Green");
     }
 }

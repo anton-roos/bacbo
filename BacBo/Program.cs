@@ -34,8 +34,10 @@ internal static class Program
             var factory = provider.GetRequiredService<BacBoContextFactory>();
             return factory.CreateDbContext();
         });
-        
-        services.AddTransient<IBacBoService,BacBoService>();
+
+        services.AddTransient<IBacBoService, BacBoService>();
+        services.AddTransient<ISimulationService, SimulationService>();
+        services.AddTransient<IRouletteService, RouletteService>();
         services.AddSingleton<Home>();
     }
 }

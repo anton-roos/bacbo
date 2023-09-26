@@ -1,4 +1,6 @@
-﻿namespace BacBo.Models;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace BacBo.Models;
 
 public class BacBoResult
 {
@@ -14,4 +16,6 @@ public class BacBoResult
     public bool BankerWins { get; set; }
     public bool Tie { get; set; }
     public string Source { get; set; }
+    [NotMapped]
+    public double Balance { get; set; } 
 }
